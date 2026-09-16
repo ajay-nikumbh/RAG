@@ -1,0 +1,29 @@
+# ---- Core (needed by almost every notebook) ----
+numpy>=1.26
+python-dotenv>=1.0
+openai>=1.40
+tiktoken>=0.7
+
+# ---- Notebook environment ----
+jupyter>=1.0
+ipykernel>=6.29
+
+# ---- Chapter 2: document parsing & ingestion ----
+pymupdf>=1.24          # PDF text + layout extraction (import as `pymupdf`)
+python-docx>=1.1       # DOCX parsing
+beautifulsoup4>=4.12   # HTML parsing
+lxml>=5.2              # faster HTML/XML backend for BeautifulSoup
+requests>=2.32         # fetching live API data (module 2e)
+
+# ---- Chapter 2c: OCR (optional but recommended) ----
+# Needs the Tesseract BINARY as well as this Python wrapper:
+#   macOS:  brew install tesseract
+#   Ubuntu: sudo apt install tesseract-ocr
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+pytesseract>=0.3.10    # Python wrapper around the Tesseract OCR engine
+pillow>=10.0           # image loading / preprocessing for OCR
+
+# ---- Useful for display / later chapters ----
+pandas>=2.2
+matplotlib>=3.8
+scikit-learn>=1.4       # PCA for visualizing embedding vectors in 2D (Chapter 1)

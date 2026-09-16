@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches
+.cache/
+.pytest_cache/
+assets/cache/
+
+# OS
+.DS_Store
+
+# Generated sample data (notebooks recreate these on run)
+assets/sample_data/*
+!assets/sample_data/README.md
+
+# Downloaded real-document corpus (utils/corpus.py re-fetches on demand)
+assets/real_corpus/*
+!assets/real_corpus/README.md
+
+Transformers/*
