@@ -8,8 +8,9 @@ syllabus. Every chapter is one self-contained Jupyter notebook that pairs the th
 implemented *separately* in Python (comment above every meaningful line) → trade-offs →
 production considerations → interview questions.
 
-**Naming convention:** folder and notebook share the same `NN_snake_case_name`. The
-two-digit prefix keeps chapters in order in both the file browser and on GitHub.
+**Naming convention:** each chapter folder is named `NN. Title Case Name`, and the
+notebook inside shares that same name. The two-digit prefix keeps chapters in order in
+both the file browser and on GitHub.
 
 ## Setup (one time)
 
@@ -45,8 +46,8 @@ dozen toy sentences is fractions of a cent.
 
 | # | Chapter | What you actually learn | Status |
 |---|---|---|---|
-| 01 | [RAG Fundamentals](01_rag_fundamentals/) | What RAG is and isn't, the two pipelines, cosine similarity from scratch, a naive RAG system built with no framework, the retrieval-vs-generation debugging split | Done |
-| 02 | [Documents, Data Sources & Ingestion](02_documents_data_sources_ingestion/) | Why ingestion caps everything downstream, real PDF/OCR/DOCX parsing on real documents, metadata, dedup, security, production ingestion architecture | Done (2a-2c of 14 modules) |
+| 01 | [RAG Fundamentals](01.%20Rag%20fundamentals/) | What RAG is and isn't, the two pipelines, cosine similarity from scratch, a naive RAG system built with no framework, the retrieval-vs-generation debugging split | Done |
+| 02 | [Documents, Data Sources & Ingestion](02.%20Documents%20data%20sources%20ingestion/) | Why ingestion caps everything downstream, real PDF/OCR/DOCX parsing on real documents, metadata, dedup, security, production ingestion architecture | Done (2a-2c of 14 modules) |
 | 03 | Document Chunking | Why chunk size and overlap decide retrieval quality more than any other single choice; fixed, semantic, recursive, and structure-aware chunking | Planned |
 | 04 | Tokens & Tokenization | BPE/WordPiece/SentencePiece, token-budget math, how tokenization silently breaks retrieval on non-English text | Planned |
 | 05 | Embeddings Fundamentals | Dense vectors, model selection, domain-specific and multilingual embeddings | Planned |

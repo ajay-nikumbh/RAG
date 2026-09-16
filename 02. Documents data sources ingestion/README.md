@@ -1,7 +1,7 @@
 # Chapter 2 — Documents, Data Sources & Ingestion
 
-> **Prerequisites:** [Chapter 1 — RAG Fundamentals](../01_rag_fundamentals/)
-> **Next:** Chapter 3 — Document Chunking
+- **Prerequisites:** [Chapter 1 — RAG Fundamentals](../01.%20Rag%20fundamentals/)
+- **Next:** Chapter 3 — Document Chunking
 
 ## 60-second summary
 
@@ -26,20 +26,20 @@ order the first time; afterwards treat them as reference.
 
 | # | Module | What you actually learn | Key concepts | Real documents used |
 |---|---|---|---|---|
-| 2a | [Why Ingestion Matters & The Canonical Document](2a_why_ingestion_and_canonical_documents/) | Why bad parsing caps every downstream metric, and how one shared schema keeps 10 source formats from becoming 10 different codebases | The quality ceiling, ingestion ≠ chunking, canonical schema, `raw_text` vs `clean_text`, connectors | GDPR (citation example) |
-| 2b | [PDF Parsing](2b_pdf_parsing/) | Why PDF parsing is genuinely hard, and how to detect that your extraction is wrong before it reaches the index | PDF is not a text format, page provenance, reading order, heading detection by font weight, what `get_text()` silently misses | BERT paper, RAG paper, IRS W-4, GDPR |
-| 2c | [OCR & Scanned Documents](2c_ocr_and_scanned_documents/) | How to know whether OCR output is trustworthy instead of just hoping it is | Rendering to image, real Tesseract confidence scores, three-tier routing, character confusions, cost modelling | Tesseract test scans, IRS W-4 |
-| 2d | [DOCX, HTML & Markdown](2d_docx_html_markdown/) | Why these formats are easier than PDF, and how to not throw away the structure they already give you for free | Native structure extraction, heading context, boilerplate removal | Calibre demo DOCX, GDPR HTML |
-| 2e | [Structured Data: CSV, JSON, DB, API](2e_structured_data_csv_json_db_api/) | When embedding a row is right, and when it is the wrong tool entirely | What is one retrievable unit, row serialization, nested JSON, when not to embed, live APIs | Titanic CSV, live GitHub/OpenAlex APIs |
-| 2f | [Metadata & Provenance](2f_metadata_and_provenance/) | Why metadata decides whether retrieval is precise or just plausible-sounding | Six metadata categories, filtering precision, deterministic vs LLM extraction, citation chains | GDPR |
-| 2g | [Cleaning & Normalization](2g_cleaning_and_normalization/) | How to remove genuine noise without deleting real content by accident | Whitespace, line wrap, hyphenation, Unicode, header/footer detection on real pages, the over-cleaning trap | GDPR |
-| 2h | [Deduplication & Versioning](2h_deduplication_and_versioning/) | Why exact-match hashing is not enough, and how versioning avoids indexing two contradictory "truths" | SHA-256, Jaccard similarity, MinHash/LSH at scale, effective vs publication date, amendments | GDPR PDF vs HTML |
-| 2i | [Incremental Ingestion](2i_incremental_ingestion/) | How to re-index only what changed instead of reprocessing everything every time | Change detection, deletion handling, stable IDs, idempotency, atomic replacement | Corpus checksums |
-| 2j | [Tables, Images & Special Formats](2j_tables_images_special_formats/) | Why naive table serialization breaks numeric reasoning, and how other formats each need their own strategy | Table serialization, figures, PowerPoint, Excel, email, code, legal documents | IRS W-4 tables, Calibre DOCX tables |
-| 2k | [Security & Access Control](2k_security_and_access_control/) | Why access control has to happen at ingestion time, not as a prompt instruction | Permissions travel with the document, ACL inheritance, PII handling | — |
-| 2l | [Production Architecture](2l_production_architecture/) | How ingestion actually runs at scale: queues, retries, and what happens when a document fails | Three-layer storage, batch vs event-driven, backpressure, retries, dead-letter queues, cost | — |
-| 2m | [Validation & Observability](2m_validation_and_observability/) | How to catch a broken parser before it silently corrupts your entire index | Pre-chunking validation, anomaly detection, metrics, golden document sets, parser benchmarking | Full corpus |
-| 2n | [End-to-End Pipeline](2n_end_to_end_pipeline/) | Putting every module together into one working system, and how to debug it when something goes wrong | Anti-patterns, the debugging ladder, interview preparation | Full corpus |
+| 2a | [Why Ingestion Matters & The Canonical Document](2a.%20Why%20ingestion%20and%20canonical%20documents/) | Why bad parsing caps every downstream metric, and how one shared schema keeps 10 source formats from becoming 10 different codebases | The quality ceiling, ingestion ≠ chunking, canonical schema, `raw_text` vs `clean_text`, connectors | GDPR (citation example) |
+| 2b | [PDF Parsing](2b.%20PDF%20parsing/) | Why PDF parsing is genuinely hard, and how to detect that your extraction is wrong before it reaches the index | PDF is not a text format, page provenance, reading order, heading detection by font weight, what `get_text()` silently misses | BERT paper, RAG paper, IRS W-4, GDPR |
+| 2c | [OCR & Scanned Documents](2c.%20OCR%20and%20scanned%20documents/) | How to know whether OCR output is trustworthy instead of just hoping it is | Rendering to image, real Tesseract confidence scores, three-tier routing, character confusions, cost modelling | Tesseract test scans, IRS W-4 |
+| 2d | [DOCX, HTML & Markdown](2d.%20DOCX%20HTML%20and%20markdown/) | Why these formats are easier than PDF, and how to not throw away the structure they already give you for free | Native structure extraction, heading context, boilerplate removal | Calibre demo DOCX, GDPR HTML |
+| 2e | [Structured Data: CSV, JSON, DB, API](2e.%20Structured%20data%20CSV%20JSON%20DB%20API/) | When embedding a row is right, and when it is the wrong tool entirely | What is one retrievable unit, row serialization, nested JSON, when not to embed, live APIs | Titanic CSV, live GitHub/OpenAlex APIs |
+| 2f | [Metadata & Provenance](2f.%20Metadata%20and%20provenance/) | Why metadata decides whether retrieval is precise or just plausible-sounding | Six metadata categories, filtering precision, deterministic vs LLM extraction, citation chains | GDPR |
+| 2g | [Cleaning & Normalization](2g.%20Cleaning%20and%20normalization/) | How to remove genuine noise without deleting real content by accident | Whitespace, line wrap, hyphenation, Unicode, header/footer detection on real pages, the over-cleaning trap | GDPR |
+| 2h | [Deduplication & Versioning](2h.%20Deduplication%20and%20versioning/) | Why exact-match hashing is not enough, and how versioning avoids indexing two contradictory "truths" | SHA-256, Jaccard similarity, MinHash/LSH at scale, effective vs publication date, amendments | GDPR PDF vs HTML |
+| 2i | [Incremental Ingestion](2i.%20Incremental%20ingestion/) | How to re-index only what changed instead of reprocessing everything every time | Change detection, deletion handling, stable IDs, idempotency, atomic replacement | Corpus checksums |
+| 2j | [Tables, Images & Special Formats](2j.%20Tables%20images%20and%20special%20formats/) | Why naive table serialization breaks numeric reasoning, and how other formats each need their own strategy | Table serialization, figures, PowerPoint, Excel, email, code, legal documents | IRS W-4 tables, Calibre DOCX tables |
+| 2k | [Security & Access Control](2k.%20Security%20and%20access%20control/) | Why access control has to happen at ingestion time, not as a prompt instruction | Permissions travel with the document, ACL inheritance, PII handling | Not yet built |
+| 2l | [Production Architecture](2l.%20Production%20architecture/) | How ingestion actually runs at scale: queues, retries, and what happens when a document fails | Three-layer storage, batch vs event-driven, backpressure, retries, dead-letter queues, cost | Not yet built |
+| 2m | [Validation & Observability](2m.%20Validation%20and%20observability/) | How to catch a broken parser before it silently corrupts your entire index | Pre-chunking validation, anomaly detection, metrics, golden document sets, parser benchmarking | Full corpus |
+| 2n | [End-to-End Pipeline](2n.%20End%20to%20end%20pipeline/) | Putting every module together into one working system, and how to debug it when something goes wrong | Anti-patterns, the debugging ladder, interview preparation | Full corpus |
 
 ## Real documents, not dummy ones
 
