@@ -18,5 +18,3 @@ When you receive the next chapter PDF:
 3. Add `NN_snake_case_name.ipynb` and `README.md` inside it
 4. Flip the status in the root README roadmap table from ⬜ to ✅
 
-> **Note:** these PDFs are exports of a ChatGPT conversation and are kept here for
-> reference. They are the *source*, not the deliverable — the notebooks are.
