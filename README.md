@@ -396,15 +396,3 @@ jupyter lab
 </table>
 
 Cost note: the whole course costs well under a dollar in API calls.
-
-## Repository layout
-
-<table width="100%">
-<thead><tr><th width="8%">Sr No</th><th width="32%">Path</th><th width="60%">What it holds</th></tr></thead>
-<tbody>
-<tr><td align="center">01</td><td><code>NN. Group/</code></td><td>One topic group with its README: learning flow and chapter table</td></tr>
-<tr><td align="center">02</td><td><code>NN. Group/NN. Chapter/</code></td><td>One chapter: README, <code>notes/</code>, <code>notebooks/</code>, <code>diagrams/</code>, <code>datasets/</code>, <code>exercises/</code></td></tr>
-<tr><td align="center">03</td><td><code>utils/</code>, <code>assets/</code></td><td>Shared helpers and sample data for the notebooks</td></tr>
-<tr><td align="center">04</td><td><code>00. Course material/</code></td><td>Source syllabi and where every chapter of the two former repos now lives</td></tr>
-</tbody>
-</table>
