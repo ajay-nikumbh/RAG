@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" width="820" height="260" role="img" aria-labelledby="tok-truncation-title tok-truncation-desc">
+<title id="tok-truncation-title">Silent truncation drops the end of a chunk</title>
+<desc id="tok-truncation-desc">A 1500-token chunk sent to a model that reads 1000 tokens: the answer at token 1500 never reaches the vector.</desc>
+<rect width="820" height="260" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="259" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Chunk of 1500 tokens, model limit 1000</text>
+<rect x="40" y="90" width="493.3" height="44" rx="4" fill="#0066cc" opacity="0.85"/>
+<rect x="533.3" y="90" width="246.7" height="44" rx="4" fill="#f3f3f4" stroke="#735a6c" stroke-dasharray="5,4"/>
+<text x="286.7" y="117.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">embedded: tokens 1 to 1000</text>
+<text x="656.7" y="117.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#735a6c" text-anchor="middle">cut off, never embedded</text>
+<line x1="533.3" y1="72" x2="533.3" y2="152" stroke="#161f34" stroke-width="2"/>
+<text x="533.3" y="66.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="middle">model limit = 1000</text>
+<circle cx="775.1" cy="112" r="7" fill="#b8915a"/>
+<text x="775.1" y="168.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#b8915a" text-anchor="end">IMPORTANT ANSWER at token 1500</text>
+<text x="40.0" y="194.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">1</text>
+<text x="286.2" y="194.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">500</text>
+<text x="532.8" y="194.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">1000</text>
+<text x="779.5" y="194.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">1500</text>
+<text x="24.0" y="240.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">The database still stores the full text, so the chunk looks complete but its end can never be found by vector search.</text>
+</svg>
