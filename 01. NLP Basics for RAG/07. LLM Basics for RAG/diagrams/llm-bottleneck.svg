@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" width="820" height="300" role="img" aria-labelledby="llm-bottleneck-title llm-bottleneck-desc">
+<title id="llm-bottleneck-title">From a huge corpus to a few chunks</title>
+<desc id="llm-bottleneck-desc">Log-scale bars: corpus 10 million tokens, context window 100,000 tokens, 5 reranked chunks about 2,500 tokens.</desc>
+<rect width="820" height="300" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="299" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Retrieval narrows 10^7 tokens to what fits and matters</text>
+<text xml:space="preserve" x="190.0" y="96.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="end">corpus</text>
+<rect x="200" y="72" width="450.0" height="36" rx="3" fill="#4f5d73"/>
+<text xml:space="preserve" x="658.0" y="96.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">10,000,000 tokens</text>
+<text xml:space="preserve" x="190.0" y="154.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="end">context window</text>
+<rect x="200" y="130" width="321.4" height="36" rx="3" fill="#40668d"/>
+<text xml:space="preserve" x="529.4" y="154.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">100,000 tokens</text>
+<text xml:space="preserve" x="190.0" y="212.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="end">5 reranked chunks</text>
+<rect x="200" y="188" width="218.4" height="36" rx="3" fill="#0066cc"/>
+<text xml:space="preserve" x="426.4" y="212.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">2,500 tokens</text>
+<text xml:space="preserve" x="24.0" y="268.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Bar length is log10(tokens): each step left is a factor of 10 to 100 fewer tokens.</text>
+</svg>

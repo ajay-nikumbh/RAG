@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 390" width="820" height="390" role="img" aria-labelledby="llm-temperature-title llm-temperature-desc">
+<title id="llm-temperature-title">Temperature sharpens or flattens the distribution</title>
+<desc id="llm-temperature-desc">Real llama3.2 top-8 log-probabilities after The capital of France is, re-scaled with T = 0.5, 1 and 2.</desc>
+<rect width="820" height="390" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="389" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Same logits, three temperatures</text>
+<text xml:space="preserve" x="24.0" y="70.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0066cc" text-anchor="start">T = 0.5</text>
+<text xml:space="preserve" x="100.0" y="99.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·Paris</text>
+<rect x="108" y="86" width="106.3" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="220.3" y="99.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.966</text>
+<text xml:space="preserve" x="100.0" y="129.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·located</text>
+<rect x="108" y="116" width="2.4" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="116.4" y="129.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.022</text>
+<text xml:space="preserve" x="100.0" y="159.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·not</text>
+<rect x="108" y="146" width="1.5" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="114.4" y="159.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.004</text>
+<text xml:space="preserve" x="100.0" y="189.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">...</text>
+<rect x="108" y="176" width="1.5" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="114.4" y="189.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.003</text>
+<text xml:space="preserve" x="100.0" y="219.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·a</text>
+<rect x="108" y="206" width="1.5" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="114.3" y="219.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.003</text>
+<text xml:space="preserve" x="100.0" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·the</text>
+<rect x="108" y="236" width="1.5" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="114.1" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.001</text>
+<text xml:space="preserve" x="100.0" y="279.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·where</text>
+<rect x="108" y="266" width="1.5" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="114.1" y="279.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.001</text>
+<text xml:space="preserve" x="100.0" y="309.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·also</text>
+<rect x="108" y="296" width="1.5" height="20" rx="2" fill="#0066cc"/>
+<text xml:space="preserve" x="114.0" y="309.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.000</text>
+<text xml:space="preserve" x="290.0" y="70.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#40668d" text-anchor="start">T = 1.0</text>
+<text xml:space="preserve" x="366.0" y="99.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·Paris</text>
+<rect x="374" y="86" width="78.6" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="458.6" y="99.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.714</text>
+<text xml:space="preserve" x="366.0" y="129.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·located</text>
+<rect x="374" y="116" width="11.9" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="391.9" y="129.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.108</text>
+<text xml:space="preserve" x="366.0" y="159.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·not</text>
+<rect x="374" y="146" width="4.7" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="384.7" y="159.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.043</text>
+<text xml:space="preserve" x="366.0" y="189.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">...</text>
+<rect x="374" y="176" width="4.7" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="384.7" y="189.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.043</text>
+<text xml:space="preserve" x="366.0" y="219.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·a</text>
+<rect x="374" y="206" width="4.1" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="384.1" y="219.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.037</text>
+<text xml:space="preserve" x="366.0" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·the</text>
+<rect x="374" y="236" width="2.5" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="382.5" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.023</text>
+<text xml:space="preserve" x="366.0" y="279.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·where</text>
+<rect x="374" y="266" width="1.9" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="381.9" y="279.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.018</text>
+<text xml:space="preserve" x="366.0" y="309.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·also</text>
+<rect x="374" y="296" width="1.6" height="20" rx="2" fill="#40668d"/>
+<text xml:space="preserve" x="381.6" y="309.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.015</text>
+<text xml:space="preserve" x="556.0" y="70.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#b8915a" text-anchor="start">T = 2.0</text>
+<text xml:space="preserve" x="632.0" y="99.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·Paris</text>
+<rect x="640" y="86" width="42.6" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="688.6" y="99.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.387</text>
+<text xml:space="preserve" x="632.0" y="129.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·located</text>
+<rect x="640" y="116" width="16.5" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="662.5" y="129.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.150</text>
+<text xml:space="preserve" x="632.0" y="159.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·not</text>
+<rect x="640" y="146" width="10.4" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="656.4" y="159.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.095</text>
+<text xml:space="preserve" x="632.0" y="189.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">...</text>
+<rect x="640" y="176" width="10.4" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="656.4" y="189.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.095</text>
+<text xml:space="preserve" x="632.0" y="219.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·a</text>
+<rect x="640" y="206" width="9.7" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="655.7" y="219.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.088</text>
+<text xml:space="preserve" x="632.0" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·the</text>
+<rect x="640" y="236" width="7.6" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="653.6" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.069</text>
+<text xml:space="preserve" x="632.0" y="279.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·where</text>
+<rect x="640" y="266" width="6.7" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="652.7" y="279.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.061</text>
+<text xml:space="preserve" x="632.0" y="309.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="end">·also</text>
+<rect x="640" y="296" width="6.1" height="20" rx="2" fill="#b8915a"/>
+<text xml:space="preserve" x="652.1" y="309.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="start">0.055</text>
+<text xml:space="preserve" x="24.0" y="352.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Low T: Paris takes almost everything. High T: other tokens get a real chance of being sampled.</text>
+<text xml:space="preserve" x="24.0" y="372.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Probabilities renormalized over the top 8 tokens returned by the model.</text>
+</svg>

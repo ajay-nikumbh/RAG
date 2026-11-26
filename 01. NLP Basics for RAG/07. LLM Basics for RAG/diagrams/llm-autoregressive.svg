@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 392" width="820" height="392" role="img" aria-labelledby="llm-autoregressive-title llm-autoregressive-desc">
+<title id="llm-autoregressive-title">One token at a time</title>
+<desc id="llm-autoregressive-desc">Real llama3.2 greedy generation for the RAG prompt: each row adds one token with its probability.</desc>
+<rect width="820" height="392" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="391" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Autoregressive generation: each step appends one token</text>
+<text xml:space="preserve" x="24.0" y="80.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 1</text>
+<rect x="92" y="62" width="69.4" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="126.7" y="79.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">Records</text>
+<text xml:space="preserve" x="173.4" y="80.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 0.503</text>
+<text xml:space="preserve" x="24.0" y="114.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 2</text>
+<rect x="92" y="96" width="69.4" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="126.7" y="113.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">Records</text>
+<rect x="165.39999999999998" y="96" width="53.0" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="191.9" y="113.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">·must</text>
+<text xml:space="preserve" x="230.4" y="114.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 1.000</text>
+<text xml:space="preserve" x="24.0" y="148.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 3</text>
+<rect x="92" y="130" width="69.4" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="126.7" y="147.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">Records</text>
+<rect x="165.39999999999998" y="130" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="191.9" y="147.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·must</text>
+<rect x="222.39999999999998" y="130" width="36.6" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="240.7" y="147.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">·be</text>
+<text xml:space="preserve" x="271.0" y="148.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 1.000</text>
+<text xml:space="preserve" x="24.0" y="182.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 4</text>
+<rect x="92" y="164" width="69.4" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="126.7" y="181.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">Records</text>
+<rect x="165.39999999999998" y="164" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="191.9" y="181.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·must</text>
+<rect x="222.39999999999998" y="164" width="36.6" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="240.7" y="181.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·be</text>
+<rect x="263.0" y="164" width="85.8" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="305.9" y="181.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">·retained</text>
+<text xml:space="preserve" x="360.8" y="182.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 1.000</text>
+<text xml:space="preserve" x="24.0" y="216.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 5</text>
+<rect x="92" y="198" width="69.4" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="126.7" y="215.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">Records</text>
+<rect x="165.39999999999998" y="198" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="191.9" y="215.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·must</text>
+<rect x="222.39999999999998" y="198" width="36.6" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="240.7" y="215.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·be</text>
+<rect x="263.0" y="198" width="85.8" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="305.9" y="215.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·retained</text>
+<rect x="352.8" y="198" width="44.8" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="375.2" y="215.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">·for</text>
+<text xml:space="preserve" x="409.6" y="216.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 1.000</text>
+<text xml:space="preserve" x="24.0" y="250.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 6</text>
+<rect x="92" y="232" width="69.4" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="126.7" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">Records</text>
+<rect x="165.39999999999998" y="232" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="191.9" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·must</text>
+<rect x="222.39999999999998" y="232" width="36.6" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="240.7" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·be</text>
+<rect x="263.0" y="232" width="85.8" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="305.9" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·retained</text>
+<rect x="352.8" y="232" width="44.8" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="375.2" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·for</text>
+<rect x="401.6" y="232" width="53.0" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="428.1" y="249.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">·five</text>
+<text xml:space="preserve" x="466.6" y="250.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 0.823</text>
+<text xml:space="preserve" x="24.0" y="284.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 7</text>
+<rect x="92" y="266" width="69.4" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="126.7" y="283.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">Records</text>
+<rect x="165.39999999999998" y="266" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="191.9" y="283.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·must</text>
+<rect x="222.39999999999998" y="266" width="36.6" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="240.7" y="283.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·be</text>
+<rect x="263.0" y="266" width="85.8" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="305.9" y="283.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·retained</text>
+<rect x="352.8" y="266" width="44.8" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="375.2" y="283.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·for</text>
+<rect x="401.6" y="266" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="428.1" y="283.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·five</text>
+<rect x="458.6" y="266" width="61.2" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="489.2" y="283.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">·years</text>
+<text xml:space="preserve" x="531.8" y="284.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 0.998</text>
+<text xml:space="preserve" x="24.0" y="318.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">step 8</text>
+<rect x="92" y="300" width="69.4" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="126.7" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">Records</text>
+<rect x="165.39999999999998" y="300" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="191.9" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·must</text>
+<rect x="222.39999999999998" y="300" width="36.6" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="240.7" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·be</text>
+<rect x="263.0" y="300" width="85.8" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="305.9" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·retained</text>
+<rect x="352.8" y="300" width="44.8" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="375.2" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·for</text>
+<rect x="401.6" y="300" width="53.0" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="428.1" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·five</text>
+<rect x="458.6" y="300" width="61.2" height="26" rx="4" fill="#f3f3f4" stroke="#cecfcf"/>
+<text xml:space="preserve" x="489.2" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#161f34" text-anchor="middle">·years</text>
+<rect x="523.8" y="300" width="20.2" height="26" rx="4" fill="#0066cc" stroke="#0066cc"/>
+<text xml:space="preserve" x="533.9" y="317.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">.</text>
+<text xml:space="preserve" x="556.0" y="318.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">p = 0.697</text>
+<text xml:space="preserve" x="24.0" y="372.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Prompt: 64 tokens. Real llama3.2 (3B) via Ollama, temperature 0.</text>
+</svg>

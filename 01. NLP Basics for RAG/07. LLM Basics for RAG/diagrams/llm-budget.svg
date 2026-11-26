@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330" role="img" aria-labelledby="llm-budget-title llm-budget-desc">
+<title id="llm-budget-title">Context window split into token budgets</title>
+<desc id="llm-budget-desc">32,000-token window: system 2,000, history 5,000, query 500, output 4,000 leaves 20,500 for retrieval; with 15,000 history tokens only 10,500 remain.</desc>
+<rect width="820" height="330" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="329" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">T_context = 32,000 tokens</text>
+<text xml:space="preserve" x="24.0" y="76.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#161f34" text-anchor="start">Section 17 example: 20,500 tokens left for evidence</text>
+<rect x="24.0" y="86" width="48.2" height="40" fill="#40668d" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="72.2" y="86" width="120.6" height="40" fill="#735a6c" stroke="#ffffff" stroke-width="1.5"/>
+<text xml:space="preserve" x="132.6" y="103.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">history</text>
+<text xml:space="preserve" x="132.6" y="118.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#ffffff" text-anchor="middle">5,000</text>
+<rect x="192.9" y="86" width="12.1" height="40" fill="#b8915a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="204.9" y="86" width="494.6" height="40" fill="#0066cc" stroke="#ffffff" stroke-width="1.5"/>
+<text xml:space="preserve" x="452.2" y="103.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">retrieved evidence</text>
+<text xml:space="preserve" x="452.2" y="118.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#ffffff" text-anchor="middle">20,500</text>
+<rect x="699.5" y="86" width="96.5" height="40" fill="#7c8f6f" stroke="#ffffff" stroke-width="1.5"/>
+<text xml:space="preserve" x="747.8" y="103.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">output</text>
+<text xml:space="preserve" x="747.8" y="118.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#ffffff" text-anchor="middle">4,000</text>
+<text xml:space="preserve" x="24.0" y="182.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#161f34" text-anchor="start">Same window after a long chat: history grows, evidence shrinks</text>
+<rect x="24.0" y="192" width="48.2" height="40" fill="#40668d" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="72.2" y="192" width="361.9" height="40" fill="#735a6c" stroke="#ffffff" stroke-width="1.5"/>
+<text xml:space="preserve" x="253.2" y="209.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">long history</text>
+<text xml:space="preserve" x="253.2" y="224.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#ffffff" text-anchor="middle">15,000</text>
+<rect x="434.1" y="192" width="12.1" height="40" fill="#b8915a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="446.2" y="192" width="253.3" height="40" fill="#0066cc" stroke="#ffffff" stroke-width="1.5"/>
+<text xml:space="preserve" x="572.8" y="209.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">retrieved</text>
+<text xml:space="preserve" x="572.8" y="224.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#ffffff" text-anchor="middle">10,500</text>
+<rect x="699.5" y="192" width="96.5" height="40" fill="#7c8f6f" stroke="#ffffff" stroke-width="1.5"/>
+<text xml:space="preserve" x="747.8" y="209.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">output</text>
+<text xml:space="preserve" x="747.8" y="224.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#ffffff" text-anchor="middle">4,000</text>
+<line x1="24" y1="296" x2="50" y2="296" stroke="#40668d" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="300.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">system</text>
+<line x1="129.2" y1="296" x2="155.2" y2="296" stroke="#735a6c" stroke-width="2.4"/>
+<text xml:space="preserve" x="163.2" y="300.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">history</text>
+<line x1="241.6" y1="296" x2="267.6" y2="296" stroke="#b8915a" stroke-width="2.4"/>
+<text xml:space="preserve" x="275.6" y="300.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">query</text>
+<line x1="339.6" y1="296" x2="365.6" y2="296" stroke="#0066cc" stroke-width="2.4"/>
+<text xml:space="preserve" x="373.6" y="300.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">retrieved</text>
+<line x1="466.40000000000003" y1="296" x2="492.40000000000003" y2="296" stroke="#7c8f6f" stroke-width="2.4"/>
+<text xml:space="preserve" x="500.4" y="300.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">output reserve</text>
+</svg>

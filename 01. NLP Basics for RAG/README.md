@@ -2,7 +2,7 @@
 
 # 01 · NLP Basics for RAG
 
-<img src="https://img.shields.io/badge/Chapters-7-6366F1?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-6-10B981?style=for-the-badge" alt="done"/>
+<img src="https://img.shields.io/badge/Chapters-7-6366F1?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-7-10B981?style=for-the-badge" alt="done"/>
 
 **Only the NLP needed for retrieval: text cleaning, tokens, representations, embeddings, similarity, LLM basics.**
 
@@ -41,6 +41,6 @@ flowchart TB
 <tr><td align="center">04</td><td><a href="04.%20Embeddings%20Fundamentals/notes/04.%20Embeddings%20Fundamentals.md"><b>Embeddings Fundamentals</b></a></td><td>Dense vectors, model selection, domain-specific and multilingual embeddings</td><td align="center">High</td><td align="center"><a href="04.%20Embeddings%20Fundamentals/notes/04.%20Embeddings%20Fundamentals.md">Read</a></td><td align="center"><a href="04.%20Embeddings%20Fundamentals/notebooks/04.%20Embeddings%20Fundamentals.ipynb">Open</a></td><td align="center">Done</td></tr>
 <tr><td align="center">05</td><td><a href="05.%20Embedding%20Mathematics/notes/05.%20Embedding%20Mathematics.md"><b>Embedding Mathematics</b></a></td><td>Vector spaces, distance metrics, the curse of dimensionality</td><td align="center">Medium</td><td align="center"><a href="05.%20Embedding%20Mathematics/notes/05.%20Embedding%20Mathematics.md">Read</a></td><td align="center"><a href="05.%20Embedding%20Mathematics/notebooks/05.%20Embedding%20Mathematics.ipynb">Open</a></td><td align="center">Done</td></tr>
 <tr><td align="center">06</td><td><a href="06.%20Similarity%20Metrics%20for%20Dense%20Search/notes/06.%20Similarity%20Metrics%20for%20Dense%20Search.md"><b>Similarity Metrics for Dense Search</b></a></td><td>Cosine similarity, dot product, Euclidean distance, normalization effects</td><td align="center">Medium</td><td align="center"><a href="06.%20Similarity%20Metrics%20for%20Dense%20Search/notes/06.%20Similarity%20Metrics%20for%20Dense%20Search.md">Read</a></td><td align="center">-</td><td align="center">Done</td></tr>
-<tr><td align="center">07</td><td><b>LLM Basics for RAG</b></td><td>What an LLM does, context window, token cost, temperature, why LLMs hallucinate and why retrieval helps</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">07</td><td><a href="07.%20LLM%20Basics%20for%20RAG/notes/07.%20LLM%20Basics%20for%20RAG.md"><b>LLM Basics for RAG</b></a></td><td>What an LLM does, context window, token cost, temperature, why LLMs hallucinate and why retrieval helps</td><td align="center">Medium</td><td align="center"><a href="07.%20LLM%20Basics%20for%20RAG/notes/07.%20LLM%20Basics%20for%20RAG.md">Read</a></td><td align="center">-</td><td align="center">Done</td></tr>
 </tbody>
 </table>
