@@ -2,7 +2,7 @@
 
 # RAG · From NLP Basics to Production
 
-<img src="https://img.shields.io/badge/Groups-16-6366F1?style=for-the-badge" alt="groups"/> <img src="https://img.shields.io/badge/Chapters-108-0EA5E9?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-9-10B981?style=for-the-badge" alt="notes"/> <img src="https://img.shields.io/badge/Notebooks%20ready-11-F59E0B?style=for-the-badge" alt="notebooks"/>
+<img src="https://img.shields.io/badge/Groups-16-6366F1?style=for-the-badge" alt="groups"/> <img src="https://img.shields.io/badge/Chapters-108-0EA5E9?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-10-10B981?style=for-the-badge" alt="notes"/> <img src="https://img.shields.io/badge/Notebooks%20ready-11-F59E0B?style=for-the-badge" alt="notebooks"/>
 
 **A hands-on course on Retrieval-Augmented Generation: NLP basics, ingestion, sparse, dense and hybrid retrieval, reranking, generation, evaluation and production.**
 
@@ -49,7 +49,7 @@ Only the NLP needed for retrieval: text cleaning, tokens, representations, embed
 <table width="100%">
 <thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
-<tr><td align="center">01.01</td><td><b>Text Preprocessing for Retrieval</b></td><td>Normalization, stop words, stemming vs lemmatization, n-grams, why the same preprocessing must run on documents and queries</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">01.01</td><td><a href="01.%20NLP%20Basics%20for%20RAG/01.%20Text%20Preprocessing%20for%20Retrieval/notes/01.%20Text%20Preprocessing%20for%20Retrieval.md"><b>Text Preprocessing for Retrieval</b></a></td><td>Normalization, stop words, stemming vs lemmatization, n-grams, why the same preprocessing must run on documents and queries</td><td align="center">Medium</td><td align="center"><a href="01.%20NLP%20Basics%20for%20RAG/01.%20Text%20Preprocessing%20for%20Retrieval/notes/01.%20Text%20Preprocessing%20for%20Retrieval.md">Read</a></td><td align="center"><a href="01.%20NLP%20Basics%20for%20RAG/01.%20Text%20Preprocessing%20for%20Retrieval/notebooks/01.%20Text%20Preprocessing%20for%20Retrieval.ipynb">Open</a></td><td align="center">Done</td></tr>
 <tr><td align="center">01.02</td><td><b>Tokens and Tokenization</b></td><td>BPE/WordPiece/SentencePiece, token-budget math, how tokenization silently breaks retrieval on non-English text</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">01.03</td><td><b>From Bag of Words to Embeddings</b></td><td>One-hot and bag-of-words vectors, word2vec intuition, contextual embeddings, why meaning needs dense vectors</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">01.04</td><td><b>Embeddings Fundamentals</b></td><td>Dense vectors, model selection, domain-specific and multilingual embeddings</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
