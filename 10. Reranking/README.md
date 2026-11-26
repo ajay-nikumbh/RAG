@@ -27,11 +27,11 @@ flowchart TB
 **Done** = notes + notebook · **Notebook** = notebook ready, notes coming · **Planned** = folder ready
 
 <table width="100%">
-<thead><tr><th width="7%">Sr No</th><th width="25%">Chapter</th><th width="44%">Key Concepts</th><th width="8%">Notes</th><th width="8%">Notebook</th><th width="8%">Status</th></tr></thead>
+<thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
-<tr><td align="center">01</td><td><a href="01.%20Why%20Hybrid%20Search%20Still%20Needs%20Reranking"><b>Why Hybrid Search Still Needs Reranking</b></a></td><td>Hybrid gives candidates, reranker gives precision, Top-50 to Top-5; Cross-encoders vs bi-encoders, LLM reranking, why similar isn't relevant</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">02</td><td><a href="02.%20Bi-Encoder%20vs%20Cross-Encoder"><b>Bi-Encoder vs Cross-Encoder</b></a></td><td>Bi-encoder vs cross-encoder, joint query-document scoring, speed vs accuracy</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">03</td><td><a href="03.%20Cross-Encoder%20Reranking"><b>Cross-Encoder Reranking</b></a></td><td>BGE, Cohere and Jina rerankers, candidate size, latency budget</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">04</td><td><a href="04.%20LLM-Based%20Reranking"><b>LLM-Based Reranking</b></a></td><td>Pointwise, pairwise and listwise LLM reranking, token cost, latency</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">01</td><td><b>Why Hybrid Search Still Needs Reranking</b></td><td>Hybrid gives candidates, reranker gives precision, Top-50 to Top-5; Cross-encoders vs bi-encoders, LLM reranking, why similar isn't relevant</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">02</td><td><b>Bi-Encoder vs Cross-Encoder</b></td><td>Bi-encoder vs cross-encoder, joint query-document scoring, speed vs accuracy</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">03</td><td><b>Cross-Encoder Reranking</b></td><td>BGE, Cohere and Jina rerankers, candidate size, latency budget</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">04</td><td><b>LLM-Based Reranking</b></td><td>Pointwise, pairwise and listwise LLM reranking, token cost, latency</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 </tbody>
 </table>

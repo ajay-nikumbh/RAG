@@ -4,7 +4,7 @@
 
 <img src="https://img.shields.io/badge/05%20%C2%B7%20Sparse%20Retrieval-6366F1?style=for-the-badge" alt="group"/> <img src="https://img.shields.io/badge/Status-Done-10B981?style=for-the-badge" alt="status"/>
 
-**Regulation PDFs, parsing, chunking, metadata filters, BM25 + dense, RRF, LLM reranker.; Lexical vs semantic, inverted indexes, TF-IDF, BM25 from first principles, learned sparse retrieval.**
+**Forward vs inverted index, posting lists, TF, DF, Boolean AND/OR, phrase search, tokenization, stemming; Lexical vs semantic, inverted indexes, TF-IDF, BM25 from first principles, learned sparse retrieval.**
 
 </div>
 

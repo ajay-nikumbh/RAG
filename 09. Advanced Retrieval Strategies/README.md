@@ -27,10 +27,10 @@ flowchart TB
 **Done** = notes + notebook · **Notebook** = notebook ready, notes coming · **Planned** = folder ready
 
 <table width="100%">
-<thead><tr><th width="7%">Sr No</th><th width="25%">Chapter</th><th width="44%">Key Concepts</th><th width="8%">Notes</th><th width="8%">Notebook</th><th width="8%">Status</th></tr></thead>
+<thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
-<tr><td align="center">01</td><td><a href="01.%20Retrieval%20Strategies%20MMR%20and%20Ensembles"><b>Retrieval Strategies MMR and Ensembles</b></a></td><td>MMR, parent-document retrieval, contextual retrieval, ensemble retrievers, Top-K and candidate pools</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">02</td><td><a href="02.%20Parent%20Document%20Retrieval"><b>Parent Document Retrieval</b></a></td><td>Small chunks for retrieval, parent documents for context</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">03</td><td><a href="03.%20Contextual%20Retrieval"><b>Contextual Retrieval</b></a></td><td>Adding document context to chunks before embedding and BM25</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">01</td><td><b>Retrieval Strategies MMR and Ensembles</b></td><td>MMR, parent-document retrieval, contextual retrieval, ensemble retrievers, Top-K and candidate pools</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">02</td><td><b>Parent Document Retrieval</b></td><td>Small chunks for retrieval, parent documents for context</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">03</td><td><b>Contextual Retrieval</b></td><td>Adding document context to chunks before embedding and BM25</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 </tbody>
 </table>

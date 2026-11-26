@@ -4,7 +4,7 @@
 
 <img src="https://img.shields.io/badge/02%20%C2%B7%20RAG%20Introduction-6366F1?style=for-the-badge" alt="group"/> <img src="https://img.shields.io/badge/Status-Done-10B981?style=for-the-badge" alt="status"/>
 
-**FastAPI, Milvus or Elasticsearch, BM25, dense search, RRF, reranker, LLM.**
+**Exact keyword match, semantic similarity, vocabulary mismatch, synonyms, acronyms, IDs, numbers, negation.**
 
 </div>
 

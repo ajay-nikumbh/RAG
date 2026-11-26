@@ -33,12 +33,12 @@ flowchart TB
 **Done** = notes + notebook · **Notebook** = notebook ready, notes coming · **Planned** = folder ready
 
 <table width="100%">
-<thead><tr><th width="7%">Sr No</th><th width="25%">Chapter</th><th width="44%">Key Concepts</th><th width="8%">Notes</th><th width="8%">Notebook</th><th width="8%">Status</th></tr></thead>
+<thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
-<tr><td align="center">01</td><td><a href="01.%20RAG%20Frameworks"><b>RAG Frameworks</b></a></td><td>LangChain, LangGraph, LlamaIndex, Haystack, and when to skip all of them</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">02</td><td><a href="02.%20Building%20RAG%20From%20Scratch%20End%20to%20End"><b>Building RAG From Scratch End to End</b></a></td><td>The entire pipeline with zero frameworks, end to end, including hybrid search; Full pipeline: BM25 + vector index, RRF, reranker, context builder, LLM answer</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">03</td><td><a href="03.%20Production%20RAG%20System%20Design"><b>Production RAG System Design</b></a></td><td>Designing for 100M chunks and thousands of concurrent users</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">04</td><td><a href="04.%20RAG%20Interview%20Case%20Studies"><b>RAG Interview Case Studies</b></a></td><td>Legal, healthcare, financial and codebase RAG worked examples</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">05</td><td><a href="05.%20FAANG%20RAG%20Interview%20Questions"><b>FAANG RAG Interview Questions</b></a></td><td>The questions interviewers ask, with model answers</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">01</td><td><b>RAG Frameworks</b></td><td>LangChain, LangGraph, LlamaIndex, Haystack, and when to skip all of them</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">02</td><td><b>Building RAG From Scratch End to End</b></td><td>The entire pipeline with zero frameworks, end to end, including hybrid search; Full pipeline: BM25 + vector index, RRF, reranker, context builder, LLM answer</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">03</td><td><b>Production RAG System Design</b></td><td>Designing for 100M chunks and thousands of concurrent users</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">04</td><td><b>RAG Interview Case Studies</b></td><td>Legal, healthcare, financial and codebase RAG worked examples</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">05</td><td><b>FAANG RAG Interview Questions</b></td><td>The questions interviewers ask, with model answers</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 </tbody>
 </table>

@@ -33,13 +33,13 @@ flowchart TB
 **Done** = notes + notebook · **Notebook** = notebook ready, notes coming · **Planned** = folder ready
 
 <table width="100%">
-<thead><tr><th width="7%">Sr No</th><th width="25%">Chapter</th><th width="44%">Key Concepts</th><th width="8%">Notes</th><th width="8%">Notebook</th><th width="8%">Status</th></tr></thead>
+<thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
-<tr><td align="center">01</td><td><a href="01.%20Query%20Preprocessing"><b>Query Preprocessing</b></a></td><td>Lowercasing, punctuation, stopwords, spell correction, preserving IDs and numbers; Spell correction, intent detection, entity extraction before retrieval</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">02</td><td><a href="02.%20Query%20Expansion"><b>Query Expansion</b></a></td><td>Synonym expansion, LLM expansion, metadata expansion, domain dictionaries</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">03</td><td><a href="03.%20Query%20Transformation"><b>Query Transformation</b></a></td><td>Query expansion, HyDE, Query2Doc, step-back prompting, multi-query retrieval</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">04</td><td><a href="04.%20Multi-Query%20Retrieval"><b>Multi-Query Retrieval</b></a></td><td>LLM-generated sub-queries, parallel retrieval, fusing multiple result lists</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">05</td><td><a href="05.%20HyDE%20Hypothetical%20Document%20Embeddings"><b>HyDE Hypothetical Document Embeddings</b></a></td><td>Hypothetical answer generation, embedding the answer, vector search</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
-<tr><td align="center">06</td><td><a href="06.%20Query%20Rewriting%20for%20Conversational%20RAG"><b>Query Rewriting for Conversational RAG</b></a></td><td>Conversational context, follow-up rewriting, standalone queries</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">01</td><td><b>Query Preprocessing</b></td><td>Lowercasing, punctuation, stopwords, spell correction, preserving IDs and numbers; Spell correction, intent detection, entity extraction before retrieval</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">02</td><td><b>Query Expansion</b></td><td>Synonym expansion, LLM expansion, metadata expansion, domain dictionaries</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">03</td><td><b>Query Transformation</b></td><td>Query expansion, HyDE, Query2Doc, step-back prompting, multi-query retrieval</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">04</td><td><b>Multi-Query Retrieval</b></td><td>LLM-generated sub-queries, parallel retrieval, fusing multiple result lists</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">05</td><td><b>HyDE Hypothetical Document Embeddings</b></td><td>Hypothetical answer generation, embedding the answer, vector search</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">06</td><td><b>Query Rewriting for Conversational RAG</b></td><td>Conversational context, follow-up rewriting, standalone queries</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 </tbody>
 </table>

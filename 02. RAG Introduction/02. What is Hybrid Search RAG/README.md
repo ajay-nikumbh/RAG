@@ -4,7 +4,7 @@
 
 <img src="https://img.shields.io/badge/02%20%C2%B7%20RAG%20Introduction-6366F1?style=for-the-badge" alt="group"/> <img src="https://img.shields.io/badge/Status-Done-10B981?style=for-the-badge" alt="status"/>
 
-**Python, BM25, FAISS, Sentence Transformers, RRF. No framework hides the internals.**
+**RAG recap, retrieval pipeline, sparse vs dense limits, hybrid architecture, when to use hybrid.**
 
 </div>
 
