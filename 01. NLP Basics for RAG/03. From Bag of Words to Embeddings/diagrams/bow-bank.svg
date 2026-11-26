@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img" aria-labelledby="bow-bank-title bow-bank-desc">
+<title id="bow-bank-title">Contextual vectors for the word bank</title>
+<desc id="bow-bank-desc">2D PCA of the real all-MiniLM-L6-v2 vector for the token bank in eight sentences. Same-sense pairs average cosine 0.864, cross-sense pairs 0.759.</desc>
+<rect width="820" height="470" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="469" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Contextual: "bank" gets a different vector in each sentence</text>
+<rect x="24" y="56" width="772" height="350" rx="6" fill="#f3f3f4"/>
+<line x1="347.7" y1="111.7" x2="322" y2="165.0" stroke="#0066cc" stroke-width="0.8"/>
+<text xml:space="preserve" x="316.0" y="169.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#0066cc" text-anchor="end">I deposited money in the bank.</text>
+<line x1="339.7" y1="138.3" x2="322" y2="209.0" stroke="#0066cc" stroke-width="0.8"/>
+<text xml:space="preserve" x="316.0" y="213.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#0066cc" text-anchor="end">I deposited cash at the bank.</text>
+<line x1="356.5" y1="316.0" x2="322" y2="253.0" stroke="#0066cc" stroke-width="0.8"/>
+<text xml:space="preserve" x="316.0" y="257.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#0066cc" text-anchor="end">The bank charges a monthly fee.</text>
+<line x1="362.5" y1="371.0" x2="322" y2="297.0" stroke="#0066cc" stroke-width="0.8"/>
+<text xml:space="preserve" x="316.0" y="301.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#0066cc" text-anchor="end">The bank approved my loan.</text>
+<circle cx="347.7" cy="111.7" r="5.5" fill="#0066cc"/>
+<circle cx="339.7" cy="138.3" r="5.5" fill="#0066cc"/>
+<circle cx="362.5" cy="371.0" r="5.5" fill="#0066cc"/>
+<circle cx="356.5" cy="316.0" r="5.5" fill="#0066cc"/>
+<line x1="490.0" y1="146.3" x2="498" y2="165.0" stroke="#b8915a" stroke-width="0.8"/>
+<text xml:space="preserve" x="504.0" y="169.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#b8915a" text-anchor="start">Grass grew along the muddy bank.</text>
+<line x1="449.5" y1="233.7" x2="498" y2="209.0" stroke="#b8915a" stroke-width="0.8"/>
+<text xml:space="preserve" x="504.0" y="213.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#b8915a" text-anchor="start">The boat drifted toward the bank of the stream.</text>
+<line x1="468.7" y1="258.8" x2="498" y2="253.0" stroke="#b8915a" stroke-width="0.8"/>
+<text xml:space="preserve" x="504.0" y="257.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#b8915a" text-anchor="start">We sat on the river bank.</text>
+<line x1="465.4" y1="272.1" x2="498" y2="297.0" stroke="#b8915a" stroke-width="0.8"/>
+<text xml:space="preserve" x="504.0" y="301.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#b8915a" text-anchor="start">The fisherman sat on the river bank.</text>
+<circle cx="468.7" cy="258.8" r="5.5" fill="#b8915a"/>
+<circle cx="465.4" cy="272.1" r="5.5" fill="#b8915a"/>
+<circle cx="490.0" cy="146.3" r="5.5" fill="#b8915a"/>
+<circle cx="449.5" cy="233.7" r="5.5" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="430.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Static Word2Vec-style lookup: one vector for every "bank", cosine 1.000 between any two uses.</text>
+<line x1="24" y1="452" x2="50" y2="452" stroke="#0066cc" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="456.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">money sense</text>
+<line x1="165.2" y1="452" x2="191.2" y2="452" stroke="#b8915a" stroke-width="2.4"/>
+<text xml:space="preserve" x="199.2" y="456.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">river sense</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" width="820" height="420" role="img" aria-labelledby="bow-synonym-title bow-synonym-desc">
+<title id="bow-synonym-title">No shared words: BoW says 90 degrees, embeddings say closer</title>
+<desc id="bow-synonym-desc">Query and document share no word, so their BoW cosine is 0 (90 degrees). Real all-MiniLM-L6-v2 cosine is 0.527.</desc>
+<rect width="820" height="420" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="419" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Synonym problem: same meaning, no shared words</text>
+<clipPath id="bow-synonym-clip1"><rect x="24" y="90" width="372" height="260" rx="6"/></clipPath>
+<rect x="24" y="90" width="372" height="260" rx="6" fill="#f3f3f4"/>
+<text xml:space="preserve" x="24.0" y="78.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#4f5d73" text-anchor="start">Bag of Words</text>
+<line x1="104.1" y1="311.5" x2="311.0" y2="311.5" stroke="#161f34" stroke-width="2.4"/>
+<polygon points="319.8,311.5 309.6,315.6 309.6,307.4" fill="#161f34"/>
+<text xml:space="preserve" x="319.8" y="334.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="end">document: annual leave</text>
+<line x1="104.1" y1="311.5" x2="104.1" y2="127.7" stroke="#735a6c" stroke-width="2.4"/>
+<polygon points="104.1,118.9 108.2,129.1 100.0,129.1" fill="#735a6c"/>
+<text xml:space="preserve" x="113.7" y="115.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="start">query: paid vacation</text>
+<polyline points="161.9,311.5 161.7,307.7 161.4,303.9 160.7,300.2 159.9,296.5 158.8,292.9 157.5,289.4 155.9,285.9 154.1,282.6 152.1,279.4 149.9,276.3 147.5,273.4 144.9,270.6 142.2,268.0 139.2,265.6 136.2,263.4 133.0,261.4 129.6,259.7 126.2,258.1 122.6,256.8 119.0,255.7 115.3,254.8 111.6,254.2 107.9,253.8 104.1,253.7" fill="none" stroke="#735a6c" stroke-width="1.8"/>
+<text xml:space="preserve" x="169.4" y="255.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#735a6c" text-anchor="middle">90°</text>
+<text xml:space="preserve" x="24.0" y="376.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">cosine = 0.000</text>
+<clipPath id="bow-synonym-clip2"><rect x="420" y="90" width="372" height="260" rx="6"/></clipPath>
+<rect x="420" y="90" width="372" height="260" rx="6" fill="#f3f3f4"/>
+<text xml:space="preserve" x="420.0" y="78.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0066cc" text-anchor="start">Dense embedding (real)</text>
+<line x1="500.1" y1="311.5" x2="707.0" y2="311.5" stroke="#161f34" stroke-width="2.4"/>
+<polygon points="715.8,311.5 705.6,315.6 705.6,307.4" fill="#161f34"/>
+<text xml:space="preserve" x="715.8" y="334.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="end">document: annual leave</text>
+<line x1="500.1" y1="311.5" x2="596.9" y2="155.3" stroke="#0066cc" stroke-width="2.4"/>
+<polygon points="601.6,147.8 599.7,158.6 592.7,154.3" fill="#0066cc"/>
+<text xml:space="preserve" x="611.2" y="144.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">query: paid vacation</text>
+<polyline points="557.9,311.5 557.8,309.0 557.6,306.6 557.4,304.2 557.0,301.7 556.6,299.3 556.0,297.0 555.3,294.6 554.6,292.3 553.7,290.0 552.8,287.8 551.7,285.5 550.6,283.4 549.3,281.3 548.0,279.2 546.6,277.2 545.1,275.3 543.5,273.4 541.9,271.6 540.2,269.9 538.4,268.2 536.5,266.6 534.6,265.1 532.6,263.7 530.5,262.4" fill="none" stroke="#0066cc" stroke-width="1.8"/>
+<text xml:space="preserve" x="580.9" y="276.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="middle">58°</text>
+<text xml:space="preserve" x="420.0" y="376.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">cosine = 0.527</text>
+<text xml:space="preserve" x="24.0" y="404.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">BoW sees two different word sets. The real model places the two texts at a much smaller angle.</text>
+</svg>

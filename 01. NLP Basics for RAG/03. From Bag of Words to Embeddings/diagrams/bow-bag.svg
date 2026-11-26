@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300" role="img" aria-labelledby="bow-bag-title bow-bag-desc">
+<title id="bow-bag-title">dog bites man and man bites dog give the same bag</title>
+<desc id="bow-bag-desc">Both sentences produce the BoW vector bites 1, dog 1, man 1. Real all-MiniLM-L6-v2 cosine is 0.907.</desc>
+<rect width="620" height="300" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="299" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Word order is thrown away</text>
+<rect x="24" y="76" width="70" height="34" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="59.0" y="98.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">dog</text>
+<rect x="102" y="76" width="70" height="34" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="137.0" y="98.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">bites</text>
+<rect x="180" y="76" width="70" height="34" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="215.0" y="98.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">man</text>
+<path d="M262,93 H330" stroke="#4f5d73" stroke-width="1.6" fill="none"/>
+<polygon points="330,88 340,93 330,98" fill="#4f5d73"/>
+<rect x="352" y="78" width="60" height="28" fill="#0066cc" opacity="1.00" stroke="#cecfcf"/>
+<text xml:space="preserve" x="382.0" y="96.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text xml:space="preserve" x="382.0" y="70.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">bites</text>
+<rect x="414" y="78" width="60" height="28" fill="#0066cc" opacity="1.00" stroke="#cecfcf"/>
+<text xml:space="preserve" x="444.0" y="96.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text xml:space="preserve" x="444.0" y="70.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">dog</text>
+<rect x="476" y="78" width="60" height="28" fill="#0066cc" opacity="1.00" stroke="#cecfcf"/>
+<text xml:space="preserve" x="506.0" y="96.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text xml:space="preserve" x="506.0" y="70.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">man</text>
+<rect x="24" y="146" width="70" height="34" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="59.0" y="168.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">man</text>
+<rect x="102" y="146" width="70" height="34" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="137.0" y="168.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">bites</text>
+<rect x="180" y="146" width="70" height="34" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="215.0" y="168.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">dog</text>
+<path d="M262,163 H330" stroke="#4f5d73" stroke-width="1.6" fill="none"/>
+<polygon points="330,158 340,163 330,168" fill="#4f5d73"/>
+<rect x="352" y="148" width="60" height="28" fill="#0066cc" opacity="1.00" stroke="#cecfcf"/>
+<text xml:space="preserve" x="382.0" y="166.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<rect x="414" y="148" width="60" height="28" fill="#0066cc" opacity="1.00" stroke="#cecfcf"/>
+<text xml:space="preserve" x="444.0" y="166.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<rect x="476" y="148" width="60" height="28" fill="#0066cc" opacity="1.00" stroke="#cecfcf"/>
+<text xml:space="preserve" x="506.0" y="166.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text xml:space="preserve" x="352.0" y="236.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0066cc" text-anchor="start">identical vectors: BoW cosine = 1.000</text>
+<text xml:space="preserve" x="24.0" y="272.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Real check: all-MiniLM-L6-v2 cosine is 0.907, so even dense models only partly see the order.</text>
+</svg>

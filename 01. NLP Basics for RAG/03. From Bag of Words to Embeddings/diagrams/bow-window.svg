@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" width="820" height="360" role="img" aria-labelledby="bow-window-title bow-window-desc">
+<title id="bow-window-title">CBOW and skip-gram on one sentence</title>
+<desc id="bow-window-desc">Illustration: CBOW predicts the centre word from its neighbours; skip-gram predicts the neighbours from the centre word.</desc>
+<rect width="820" height="360" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="359" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Word2Vec training windows (illustration)</text>
+<text xml:space="preserve" x="24.0" y="78.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0066cc" text-anchor="start">CBOW: context words predict the centre word</text>
+<rect x="40" y="92" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="102.0" y="115.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">The</text>
+<rect x="190" y="92" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="252.0" y="115.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">employee</text>
+<rect x="340" y="92" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="402.0" y="115.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">receives</text>
+<rect x="490" y="92" width="124" height="36" rx="6" fill="#0066cc" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="552.0" y="115.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">?</text>
+<rect x="640" y="92" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="702.0" y="115.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">leave</text>
+<rect x="182" y="86" width="582" height="48" rx="8" fill="none" stroke="#4f5d73" stroke-dasharray="5,4"/>
+<path d="M252,134 V182 H552 V142" fill="none" stroke="#0066cc" stroke-width="1.6"/>
+<polygon points="547,144 552,134 557,144" fill="#0066cc"/>
+<path d="M402,134 V170 H552 V142" fill="none" stroke="#0066cc" stroke-width="1.6"/>
+<polygon points="547,144 552,134 557,144" fill="#0066cc"/>
+<path d="M702,134 V170 H552 V142" fill="none" stroke="#0066cc" stroke-width="1.6"/>
+<polygon points="547,144 552,134 557,144" fill="#0066cc"/>
+<text xml:space="preserve" x="24.0" y="214.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#735a6c" text-anchor="start">Skip-gram: the centre word predicts its context</text>
+<rect x="40" y="228" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="102.0" y="251.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">The</text>
+<rect x="190" y="228" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="252.0" y="251.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">employee</text>
+<rect x="340" y="228" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="402.0" y="251.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">receives</text>
+<rect x="490" y="228" width="124" height="36" rx="6" fill="#0066cc" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="552.0" y="251.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">annual</text>
+<rect x="640" y="228" width="124" height="36" rx="6" fill="#ffffff" stroke="#40668d" stroke-width="1.4"/>
+<text xml:space="preserve" x="702.0" y="251.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">leave</text>
+<rect x="182" y="222" width="582" height="48" rx="8" fill="none" stroke="#4f5d73" stroke-dasharray="5,4"/>
+<path d="M552,270 V318 H252 V278" fill="none" stroke="#735a6c" stroke-width="1.6"/>
+<polygon points="247,280 252,270 257,280" fill="#735a6c"/>
+<path d="M552,270 V306 H402 V278" fill="none" stroke="#735a6c" stroke-width="1.6"/>
+<polygon points="397,280 402,270 407,280" fill="#735a6c"/>
+<path d="M552,270 V306 H702 V278" fill="none" stroke="#735a6c" stroke-width="1.6"/>
+<polygon points="697,280 702,270 707,280" fill="#735a6c"/>
+<text xml:space="preserve" x="24.0" y="346.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Dashed box = context window. Repeating this over billions of words pulls words with similar neighbours together.</text>
+</svg>
