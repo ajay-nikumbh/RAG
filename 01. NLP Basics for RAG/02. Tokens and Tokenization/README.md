@@ -2,27 +2,118 @@
 
 # 01.02 · Tokens and Tokenization
 
-<img src="https://img.shields.io/badge/01%20%C2%B7%20NLP%20Basics%20for%20RAG-6366F1?style=for-the-badge" alt="group"/> <img src="https://img.shields.io/badge/Status-Planned-94A3B8?style=for-the-badge" alt="status"/>
+<img src="https://img.shields.io/badge/01%20%C2%B7%20NLP%20Basics%20for%20RAG-6366F1?style=for-the-badge" alt="group"/> <img src="https://img.shields.io/badge/Status-Done-10B981?style=for-the-badge" alt="status"/>
 
 **BPE/WordPiece/SentencePiece, token-budget math, how tokenization silently breaks retrieval on non-English text.**
 
 </div>
 
-<p align="center"><a href="../01.%20Text%20Preprocessing%20for%20Retrieval/README.md">Previous: 01.01 Text Preprocessing for Retrieval</a> | <a href="../../README.md">Home</a> | <a href="../README.md">Group 01: NLP Basics for RAG</a> | <a href="../03.%20From%20Bag%20of%20Words%20to%20Embeddings/README.md">Next: 01.03 From Bag of Words to Embeddings</a></p>
+<p align="center"><a href="../01.%20Text%20Preprocessing%20for%20Retrieval/README.md">Previous: 01.01 Text Preprocessing for Retrieval</a> | <a href="../../README.md">Home</a> | <a href="../README.md">Group 01: NLP Basics for RAG</a> | <a href="notes/02.%20Tokens%20and%20Tokenization.md">Notes</a> | <a href="../03.%20From%20Bag%20of%20Words%20to%20Embeddings/README.md">Next: 01.03 From Bag of Words to Embeddings</a></p>
 
 ## Chapter files
 
 <table width="100%">
 <thead><tr><th width="8%">Sr No</th><th width="20%">Resource</th><th width="54%">Description</th><th width="18%">Link</th></tr></thead>
 <tbody>
-<tr><td align="center">01</td><td><b>Notes</b></td><td>Markdown notes with diagrams and clean code</td><td align="center">Not yet</td></tr>
-<tr><td align="center">02</td><td><b>Notebook</b></td><td>Runnable notebook with code and outputs</td><td align="center">Not yet</td></tr>
+<tr><td align="center">01</td><td><b>Notes</b></td><td>Markdown notes with diagrams and clean code</td><td align="center"><a href="notes/02.%20Tokens%20and%20Tokenization.md">Open</a></td></tr>
+<tr><td align="center">02</td><td><b>Notebook</b></td><td>Runnable notebook with code and outputs</td><td align="center"><a href="notebooks/02.%20Tokens%20and%20Tokenization.ipynb">Open</a></td></tr>
 <tr><td align="center">03</td><td><b>Diagrams</b></td><td>Figures used by the notes and notebook</td><td align="center"><a href="diagrams">Open</a></td></tr>
 <tr><td align="center">04</td><td><b>Datasets</b></td><td>Data used by this chapter</td><td align="center"><a href="datasets">Open</a></td></tr>
 <tr><td align="center">05</td><td><b>Exercises</b></td><td>Practice tasks</td><td align="center"><a href="exercises">Open</a></td></tr>
 </tbody>
 </table>
 
-**Merged from:** RAG roadmap chapter 04.
+## Subtopic index
 
-Notes for this chapter are planned.
+<table width="100%">
+<thead><tr><th width="8%">Sr No</th><th width="56%">Section</th><th width="12%">Subtopics</th><th width="12%">Code</th><th width="12%">Diagrams</th></tr></thead>
+<tbody>
+<tr><td align="center">01</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#introduction"><b>Introduction</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">02</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#basic-definitions-in-simple-words"><b>Basic Definitions in Simple Words</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">03</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#1-what-exactly-is-a-token"><b>1. What exactly is a token?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">04</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#2-token--word"><b>2. Token ≠ word</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">05</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#3-why-dont-llms-simply-tokenize-by-words"><b>3. Why don't LLMs simply tokenize by words?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">06</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#4-character-tokenization"><b>4. Character tokenization?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">07</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#5-the-middle-ground-subword-tokenization"><b>5. The middle ground: subword tokenization</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">08</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#6-why-tokenization-matters-specifically-in-rag"><b>6. Why tokenization matters specifically in RAG</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">09</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#7-rag-token-flow"><b>7. RAG token flow</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">2</td></tr>
+<tr><td align="center">10</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#8-context-window-mathematics"><b>8. Context-window mathematics</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">11</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#9-if-each-chunk-is-500-tokens"><b>9. If each chunk is 500 tokens</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">12</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#10-token-vocabulary"><b>10. Token vocabulary</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">13</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#11-token-id--embedding"><b>11. Token ID → embedding</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">14</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#12-main-tokenizer-families"><b>12. Main tokenizer families</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">15</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#13-byte-pair-encoding--bpe"><b>13. Byte Pair Encoding — BPE</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">16</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#14-bpe-intuition-visually"><b>14. BPE intuition visually</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">2</td></tr>
+<tr><td align="center">17</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#15-why-bpe-works"><b>15. Why BPE works</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">18</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#16-bpe-training-concept"><b>16. BPE training concept</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">19</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#17-simple-bpe-implementation-from-scratch"><b>17. Simple BPE implementation from scratch</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">20</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#18-count-pair-frequencies"><b>18. Count pair frequencies</b></a></td><td align="center">-</td><td align="center">2</td><td align="center">-</td></tr>
+<tr><td align="center">21</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#19-merge-a-selected-pair"><b>19. Merge a selected pair</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">22</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#20-perform-one-bpe-iteration"><b>20. Perform one BPE iteration</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">23</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#21-real-bpe-is-more-sophisticated"><b>21. Real BPE is more sophisticated</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">24</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#22-wordpiece"><b>22. WordPiece</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">25</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#23-bpe-vs-wordpiece"><b>23. BPE vs WordPiece</b></a></td><td align="center">2</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">26</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#24-sentencepiece"><b>24. SentencePiece</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">27</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#25-why-sentencepiece-matters-for-multilingual-models"><b>25. Why SentencePiece matters for multilingual models</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">28</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#26-byte-level-tokenization"><b>26. Byte-level tokenization</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">29</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#27-the-unknown-token-problem"><b>27. The unknown-token problem</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">30</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#28-special-tokens"><b>28. Special tokens</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">31</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#29-padding"><b>29. Padding</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">32</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#30-attention-masks"><b>30. Attention masks</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">33</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#31-why-different-models-tokenize-differently"><b>31. Why different models tokenize differently</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">34</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#32-practical-token-counting"><b>32. Practical token counting</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">35</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#33-decode-tokens"><b>33. Decode tokens</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">1</td></tr>
+<tr><td align="center">36</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#34-inspect-individual-tokens"><b>34. Inspect individual tokens</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">37</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#35-why-spaces-can-be-part-of-tokens"><b>35. Why spaces can be part of tokens</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">38</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#36-tokenization-and-chunking"><b>36. Tokenization and chunking</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">39</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#37-better-token-aware-sentence-chunking"><b>37. Better token-aware sentence chunking</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">40</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#38-token-aware-sentence-chunker"><b>38. Token-aware sentence chunker</b></a></td><td align="center">-</td><td align="center">3</td><td align="center">-</td></tr>
+<tr><td align="center">41</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#39-group-sentences-using-token-limits"><b>39. Group sentences using token limits</b></a></td><td align="center">-</td><td align="center">2</td><td align="center">-</td></tr>
+<tr><td align="center">42</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#40-what-if-one-sentence-exceeds-the-limit"><b>40. What if one sentence exceeds the limit?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">43</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#41-tokenization-and-embeddings"><b>41. Tokenization and embeddings</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">44</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#42-why-silent-truncation-is-dangerous"><b>42. Why silent truncation is dangerous</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">45</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#43-always-validate-embedding-token-length"><b>43. Always validate embedding-token length</b></a></td><td align="center">-</td><td align="center">2</td><td align="center">-</td></tr>
+<tr><td align="center">46</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#44-tokenization-and-multilingual-rag"><b>44. Tokenization and multilingual RAG</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">47</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#45-why-multilingual-token-efficiency-matters"><b>45. Why multilingual token efficiency matters</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr>
+<tr><td align="center">48</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#46-therefore-multilingual-chunking-should-be-token-aware"><b>46. Therefore multilingual chunking should be token-aware</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">49</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#47-german-compound-words"><b>47. German compound words</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">50</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#48-tokenization-and-exact-identifiers"><b>48. Tokenization and exact identifiers</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">51</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#49-tokenization-and-code"><b>49. Tokenization and code</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">52</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#50-tokenization-and-cost"><b>50. Tokenization and cost</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">53</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#51-example-cost-comparison"><b>51. Example cost comparison</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">54</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#52-chunk-overlap-increases-token-cost-twice"><b>52. Chunk overlap increases token cost twice</b></a></td><td align="center">2</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">55</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#53-rag-token-budget-architecture"><b>53. RAG token-budget architecture</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">56</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#54-dynamic-token-budgeting"><b>54. Dynamic token budgeting</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">57</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#55-context-packing"><b>55. Context packing</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">58</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#56-simple-greedy-packing"><b>56. Simple greedy packing</b></a></td><td align="center">-</td><td align="center">2</td><td align="center">-</td></tr>
+<tr><td align="center">59</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#57-token-budgeting-vs-top-k"><b>57. Token budgeting vs Top-K</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">60</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#58-tokenizer-vocabulary-size-trade-off"><b>58. Tokenizer vocabulary size trade-off</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">61</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#59-small-vocabulary-trade-off"><b>59. Small vocabulary trade-off</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">62</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#60-compression-ratio"><b>60. Compression ratio</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">63</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#61-why-tokenizer-choice-affects-model-performance"><b>61. Why tokenizer choice affects model performance</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">64</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#62-should-you-create-your-own-tokenizer-for-enterprise-rag"><b>62. Should you create your own tokenizer for enterprise RAG?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">65</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#63-very-important-misconception"><b>63. Very important misconception</b></a></td><td align="center">3</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">66</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#64-another-misconception"><b>64. Another misconception</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">67</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#65-another-misconception"><b>65. Another misconception</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">68</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#66-tokenization-failure-in-rag-truncation"><b>66. Tokenization failure in RAG: truncation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">69</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#67-another-failure-wrong-token-budget-assumptions"><b>67. Another failure: wrong token budget assumptions</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">70</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#68-another-failure-multilingual-expansion"><b>68. Another failure: multilingual expansion</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">71</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#69-interview-question-what-is-tokenization"><b>69. Interview question: What is tokenization?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">72</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#70-interview-question-why-not-tokenize-by-words"><b>70. Interview question: Why not tokenize by words?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">73</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#71-interview-question-explain-bpe"><b>71. Interview question: Explain BPE</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">74</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#72-interview-question-bpe-vs-wordpiece"><b>72. Interview question: BPE vs WordPiece</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">75</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#73-interview-question-what-is-sentencepiece"><b>73. Interview question: What is SentencePiece?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">76</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#74-interview-question-why-does-tokenization-matter-to-rag"><b>74. Interview question: Why does tokenization matter to RAG?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">77</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#75-interview-question-should-chunk-size-be-characters-words-or-tokens"><b>75. Interview question: Should chunk size be characters, words, or tokens?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">78</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#76-interview-question-what-happens-if-a-chunk-exceeds-embedding-model-context"><b>76. Interview question: What happens if a chunk exceeds embedding-model context?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">79</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#77-interview-question-why-can-multilingual-rag-behave-differently"><b>77. Interview question: Why can multilingual RAG behave differently?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">80</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#78-faang-interview-trap"><b>78. FAANG interview trap</b></a></td><td align="center">5</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">81</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#79-production-rag-token-architecture"><b>79. Production RAG token architecture</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">2</td></tr>
+<tr><td align="center">82</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#80-most-important-equations"><b>80. Most important equations</b></a></td><td align="center">4</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">83</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#81-what-you-need-to-remember-for-interviews"><b>81. What you need to remember for interviews</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">2</td></tr>
+<tr><td align="center">84</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#82-revision-sheet"><b>82. Revision sheet</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">85</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#83-how-this-chapter-connects"><b>83. How this chapter connects</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">86</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#84-practice-tasks"><b>84. Practice Tasks</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">87</td><td><a href="notes/02.%20Tokens%20and%20Tokenization.md#85-final-takeaways"><b>85. Final Takeaways</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+</tbody>
+</table>

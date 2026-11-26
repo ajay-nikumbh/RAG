@@ -2,7 +2,7 @@
 
 # 01 · NLP Basics for RAG
 
-<img src="https://img.shields.io/badge/Chapters-7-6366F1?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-3-10B981?style=for-the-badge" alt="done"/>
+<img src="https://img.shields.io/badge/Chapters-7-6366F1?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-4-10B981?style=for-the-badge" alt="done"/>
 
 **Only the NLP needed for retrieval: text cleaning, tokens, representations, embeddings, similarity, LLM basics.**
 
@@ -36,7 +36,7 @@ flowchart TB
 <thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
 <tr><td align="center">01</td><td><a href="01.%20Text%20Preprocessing%20for%20Retrieval/notes/01.%20Text%20Preprocessing%20for%20Retrieval.md"><b>Text Preprocessing for Retrieval</b></a></td><td>Normalization, stop words, stemming vs lemmatization, n-grams, why the same preprocessing must run on documents and queries</td><td align="center">Medium</td><td align="center"><a href="01.%20Text%20Preprocessing%20for%20Retrieval/notes/01.%20Text%20Preprocessing%20for%20Retrieval.md">Read</a></td><td align="center"><a href="01.%20Text%20Preprocessing%20for%20Retrieval/notebooks/01.%20Text%20Preprocessing%20for%20Retrieval.ipynb">Open</a></td><td align="center">Done</td></tr>
-<tr><td align="center">02</td><td><b>Tokens and Tokenization</b></td><td>BPE/WordPiece/SentencePiece, token-budget math, how tokenization silently breaks retrieval on non-English text</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">02</td><td><a href="02.%20Tokens%20and%20Tokenization/notes/02.%20Tokens%20and%20Tokenization.md"><b>Tokens and Tokenization</b></a></td><td>BPE/WordPiece/SentencePiece, token-budget math, how tokenization silently breaks retrieval on non-English text</td><td align="center">Medium</td><td align="center"><a href="02.%20Tokens%20and%20Tokenization/notes/02.%20Tokens%20and%20Tokenization.md">Read</a></td><td align="center"><a href="02.%20Tokens%20and%20Tokenization/notebooks/02.%20Tokens%20and%20Tokenization.ipynb">Open</a></td><td align="center">Done</td></tr>
 <tr><td align="center">03</td><td><b>From Bag of Words to Embeddings</b></td><td>One-hot and bag-of-words vectors, word2vec intuition, contextual embeddings, why meaning needs dense vectors</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">04</td><td><b>Embeddings Fundamentals</b></td><td>Dense vectors, model selection, domain-specific and multilingual embeddings</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">05</td><td><a href="05.%20Embedding%20Mathematics/notes/05.%20Embedding%20Mathematics.md"><b>Embedding Mathematics</b></a></td><td>Vector spaces, distance metrics, the curse of dimensionality</td><td align="center">Medium</td><td align="center"><a href="05.%20Embedding%20Mathematics/notes/05.%20Embedding%20Mathematics.md">Read</a></td><td align="center"><a href="05.%20Embedding%20Mathematics/notebooks/05.%20Embedding%20Mathematics.ipynb">Open</a></td><td align="center">Done</td></tr>
