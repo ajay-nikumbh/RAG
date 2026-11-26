@@ -28,6 +28,6 @@ pandas>=2.2
 matplotlib>=3.8
 scikit-learn>=1.4       # PCA for visualizing embedding vectors in 2D (Chapter 1)
 
-# ---- Sparse, dense and hybrid retrieval modules ----
-rank-bm25>=0.2.2              # BM25Okapi (module 9d, 9e)
-sentence-transformers>=3.0    # local embeddings, all-MiniLM-L6-v2 (modules 6a, 8a, 10a)
+# ---- Sparse, dense and hybrid retrieval chapters ----
+rank-bm25>=0.2.2              # BM25Okapi (05 Sparse Retrieval)
+sentence-transformers>=3.0    # local embeddings, all-MiniLM-L6-v2 (01, 06 groups)
