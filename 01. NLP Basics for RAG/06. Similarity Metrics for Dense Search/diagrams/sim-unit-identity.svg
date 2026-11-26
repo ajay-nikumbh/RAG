@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 450" width="560" height="450" role="img" aria-labelledby="sim-unit-identity-title sim-unit-identity-desc">
+<title id="sim-unit-identity-title">Unit vectors: L2 squared = 2 - 2 cosine</title>
+<desc id="sim-unit-identity-desc">Query and top document from the end-to-end example: cosine 0.4086, angle 65.9 degrees, L2 1.0876.</desc>
+<rect width="560" height="450" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="449" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">‖q − d‖² = 2 − 2 cos θ  (real top result)</text>
+<clipPath id="sim-unit-identity-clip1"><rect x="24" y="56" width="512" height="340" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="340" rx="6" fill="#f3f3f4"/>
+<line x1="24" y1="298.0" x2="536" y2="298.0" stroke="#4f5d73" stroke-width="1"/>
+<line x1="264.0" y1="56" x2="264.0" y2="396" stroke="#4f5d73" stroke-width="1"/>
+<circle cx="264.0" cy="298.0" r="160.0" fill="none" stroke="#b8915a" stroke-width="1.4" stroke-dasharray="5,4" clip-path="url(#sim-unit-identity-clip1)"/>
+<line x1="264.0" y1="298.0" x2="415.2" y2="298.0" stroke="#161f34" stroke-width="2.6"/>
+<polygon points="424.0,298.0 413.8,302.1 413.8,293.9" fill="#161f34"/>
+<text xml:space="preserve" x="414.0" y="320.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="end">query</text>
+<line x1="264.0" y1="298.0" x2="325.8" y2="160.0" stroke="#0066cc" stroke-width="2.6"/>
+<polygon points="329.4,152.0 328.9,163.0 321.5,159.6" fill="#0066cc"/>
+<text xml:space="preserve" x="321.4" y="136.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="middle">employees may work remotely</text>
+<line x1="424.0" y1="298.0" x2="329.4" y2="152.0" stroke="#735a6c" stroke-width="2.6"/>
+<polyline points="308.8,298.0 308.7,295.9 308.6,293.7 308.3,291.6 308.0,289.5 307.5,287.4 307.0,285.3 306.3,283.3 305.5,281.2 304.7,279.3 303.8,277.3 302.7,275.5 301.6,273.6 300.4,271.9 299.1,270.2 297.7,268.5 296.3,266.9 294.7,265.4 293.1,264.0 291.5,262.6 289.8,261.3 288.0,260.2 286.1,259.0 284.2,258.0 282.3,257.1" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text xml:space="preserve" x="328.5" y="264.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">65.9°</text>
+<text xml:space="preserve" x="401.6" y="192.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#735a6c" text-anchor="start">L2 = 1.0876</text>
+<line x1="24" y1="424" x2="50" y2="424" stroke="#735a6c" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="428.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">1.0876² = 1.183 = 2 − 2 × 0.4086</text>
+</svg>

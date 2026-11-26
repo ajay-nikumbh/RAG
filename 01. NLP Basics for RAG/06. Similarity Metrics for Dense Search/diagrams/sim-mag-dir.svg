@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="sim-mag-dir-title sim-mag-dir-desc">
+<title id="sim-mag-dir-title">Magnitude and direction of [3, 4]</title>
+<desc id="sim-mag-dir-desc">The vector [3, 4] has magnitude 5 and points 53.1 degrees above the x axis.</desc>
+<rect width="560" height="420" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="419" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Every vector = a length + a direction</text>
+<clipPath id="sim-mag-dir-clip1"><rect x="24" y="56" width="512" height="310" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="310" rx="6" fill="#f3f3f4"/>
+<line x1="73.3" y1="56" x2="73.3" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="134.1" y1="56" x2="134.1" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="194.9" y1="56" x2="194.9" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="255.7" y1="56" x2="255.7" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="316.5" y1="56" x2="316.5" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="377.3" y1="56" x2="377.3" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="438.0" y1="56" x2="438.0" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="498.8" y1="56" x2="498.8" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="335.6" x2="536" y2="335.6" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="274.8" x2="536" y2="274.8" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="214.0" x2="536" y2="214.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="153.3" x2="536" y2="153.3" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="92.5" x2="536" y2="92.5" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="335.6" x2="536" y2="335.6" stroke="#4f5d73" stroke-width="1"/>
+<line x1="134.1" y1="56" x2="134.1" y2="366" stroke="#4f5d73" stroke-width="1"/>
+<line x1="316.5" y1="335.6" x2="316.5" y2="92.5" stroke="#4f5d73" stroke-width="1.4" stroke-dasharray="5,4"/>
+<line x1="134.1" y1="335.6" x2="316.5" y2="335.6" stroke="#4f5d73" stroke-width="1.4" stroke-dasharray="5,4"/>
+<line x1="134.1" y1="335.6" x2="311.2" y2="99.5" stroke="#0066cc" stroke-width="3.2"/>
+<polygon points="316.5,92.5 313.6,103.1 307.1,98.2" fill="#0066cc"/>
+<text xml:space="preserve" x="94.4" y="197.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">magnitude ‖A‖ = 5</text>
+<polyline points="194.9,335.6 194.9,333.3 194.7,330.9 194.5,328.6 194.2,326.3 193.8,323.9 193.3,321.6 192.7,319.4 192.0,317.1 191.3,314.9 190.4,312.7 189.5,310.5 188.5,308.4 187.4,306.3 186.2,304.3 185.0,302.3 183.7,300.4 182.3,298.5 180.8,296.7 179.2,294.9 177.6,293.2 176.0,291.5 174.2,289.9 172.4,288.4 170.6,287.0" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text xml:space="preserve" x="229.3" y="291.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">direction: 53.1°</text>
+<text xml:space="preserve" x="225.3" y="355.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4f5d73" text-anchor="middle">3</text>
+<text xml:space="preserve" x="331.7" y="214.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4f5d73" text-anchor="middle">4</text>
+<line x1="24" y1="394" x2="50" y2="394" stroke="#0066cc" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">A = [3, 4]</text>
+<line x1="158.0" y1="394" x2="184.0" y2="394" stroke="#b8915a" stroke-width="2.4"/>
+<text xml:space="preserve" x="192.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">angle from the x axis</text>
+</svg>

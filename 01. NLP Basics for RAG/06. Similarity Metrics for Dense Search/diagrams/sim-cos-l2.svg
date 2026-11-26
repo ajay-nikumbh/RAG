@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" width="620" height="330" role="img" aria-labelledby="sim-cos-l2-title sim-cos-l2-desc">
+<title id="sim-cos-l2-title">Cosine 1, Euclidean 9</title>
+<desc id="sim-cos-l2-desc">A = [1, 0] and B = [10, 0] point the same way (cosine 1) but their tips are 9 apart.</desc>
+<rect width="620" height="330" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="329" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">A = [1, 0], B = [10, 0]: cosine 1, distance 9</text>
+<clipPath id="sim-cos-l2-clip1"><rect x="24" y="56" width="572" height="200" rx="6"/></clipPath>
+<rect x="24" y="56" width="572" height="200" rx="6" fill="#f3f3f4"/>
+<line x1="24" y1="156.0" x2="596" y2="156.0" stroke="#4f5d73" stroke-width="1"/>
+<line x1="53.6" y1="56" x2="53.6" y2="256" stroke="#4f5d73" stroke-width="1"/>
+<line x1="53.6" y1="156.0" x2="537.9" y2="156.0" stroke="#40668d" stroke-width="2.4"/>
+<polygon points="546.7,156.0 536.5,160.1 536.5,151.9" fill="#40668d"/>
+<text xml:space="preserve" x="536.7" y="142.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="end">B = [10, 0]</text>
+<line x1="53.6" y1="156.0" x2="94.1" y2="156.0" stroke="#0066cc" stroke-width="4"/>
+<polygon points="102.9,156.0 92.7,160.1 92.7,151.9" fill="#0066cc"/>
+<text xml:space="preserve" x="96.9" y="182.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">A = [1, 0]</text>
+<line x1="102.9" y1="121.5" x2="546.7" y2="121.5" stroke="#735a6c" stroke-width="2.2" stroke-dasharray="6,4"/>
+<line x1="102.9" y1="131.3" x2="102.9" y2="111.6" stroke="#735a6c" stroke-width="2"/>
+<line x1="546.7" y1="131.3" x2="546.7" y2="111.6" stroke="#735a6c" stroke-width="2"/>
+<text xml:space="preserve" x="324.8" y="109.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#735a6c" text-anchor="middle">Euclidean = 9</text>
+<line x1="24" y1="304" x2="50" y2="304" stroke="#0066cc" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="308.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">cosine sees one direction</text>
+<line x1="266.0" y1="304" x2="292.0" y2="304" stroke="#735a6c" stroke-width="2.4" stroke-dasharray="5,4"/>
+<text xml:space="preserve" x="300.0" y="308.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Euclidean sees a big gap</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="sim-euclid-title sim-euclid-desc">
+<title id="sim-euclid-title">Euclidean distance between A and B</title>
+<desc id="sim-euclid-desc">The tips of A = [1, 2] and B = [2, 4] are sqrt(5) = 2.236 apart.</desc>
+<rect width="560" height="420" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="419" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">d(A, B) = √(1² + 2²) = √5 ≈ 2.236</text>
+<clipPath id="sim-euclid-clip1"><rect x="24" y="56" width="512" height="310" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="310" rx="6" fill="#f3f3f4"/>
+<line x1="38.2" y1="56" x2="38.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="100.2" y1="56" x2="100.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="162.2" y1="56" x2="162.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="224.2" y1="56" x2="224.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="286.2" y1="56" x2="286.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="348.2" y1="56" x2="348.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="410.2" y1="56" x2="410.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="472.2" y1="56" x2="472.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="534.2" y1="56" x2="534.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="341.2" x2="536" y2="341.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="279.2" x2="536" y2="279.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="217.2" x2="536" y2="217.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="155.2" x2="536" y2="155.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="93.2" x2="536" y2="93.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="341.2" x2="536" y2="341.2" stroke="#4f5d73" stroke-width="1"/>
+<line x1="162.2" y1="56" x2="162.2" y2="366" stroke="#4f5d73" stroke-width="1"/>
+<line x1="162.2" y1="341.2" x2="282.3" y2="101.1" stroke="#40668d" stroke-width="2"/>
+<polygon points="286.2,93.2 285.3,104.2 278.0,100.5" fill="#40668d"/>
+<text xml:space="preserve" x="266.2" y="97.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">B</text>
+<line x1="162.2" y1="341.2" x2="220.3" y2="225.1" stroke="#161f34" stroke-width="2.4"/>
+<polygon points="224.2,217.2 223.3,228.2 216.0,224.5" fill="#161f34"/>
+<text xml:space="preserve" x="202.2" y="221.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="224.2" y1="217.2" x2="286.2" y2="217.2" stroke="#4f5d73" stroke-width="1.4" stroke-dasharray="4,3"/>
+<line x1="286.2" y1="217.2" x2="286.2" y2="93.2" stroke="#4f5d73" stroke-width="1.4" stroke-dasharray="4,3"/>
+<text xml:space="preserve" x="255.2" y="234.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4f5d73" text-anchor="middle">1</text>
+<text xml:space="preserve" x="298.6" y="155.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4f5d73" text-anchor="middle">2</text>
+<line x1="224.2" y1="217.2" x2="286.2" y2="93.2" stroke="#0066cc" stroke-width="3.2"/>
+<circle cx="224.2" cy="217.2" r="4" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<circle cx="286.2" cy="93.2" r="4" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<text xml:space="preserve" x="245.9" y="139.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="end">√5 ≈ 2.236</text>
+<line x1="24" y1="394" x2="50" y2="394" stroke="#0066cc" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">straight-line gap between the tips</text>
+</svg>

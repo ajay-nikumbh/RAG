@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="sim-vectors-title sim-vectors-desc">
+<title id="sim-vectors-title">A = [1, 2] and B = [2, 4] as arrows</title>
+<desc id="sim-vectors-desc">Two arrows from the origin on the same line; B is twice as long as A.</desc>
+<rect width="560" height="420" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="419" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">A = [1, 2], B = [2, 4]: same direction</text>
+<clipPath id="sim-vectors-clip1"><rect x="24" y="56" width="512" height="310" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="310" rx="6" fill="#f3f3f4"/>
+<line x1="38.2" y1="56" x2="38.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="100.2" y1="56" x2="100.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="162.2" y1="56" x2="162.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="224.2" y1="56" x2="224.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="286.2" y1="56" x2="286.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="348.2" y1="56" x2="348.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="410.2" y1="56" x2="410.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="472.2" y1="56" x2="472.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="534.2" y1="56" x2="534.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="341.2" x2="536" y2="341.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="279.2" x2="536" y2="279.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="217.2" x2="536" y2="217.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="155.2" x2="536" y2="155.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="93.2" x2="536" y2="93.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="341.2" x2="536" y2="341.2" stroke="#4f5d73" stroke-width="1"/>
+<line x1="162.2" y1="56" x2="162.2" y2="366" stroke="#4f5d73" stroke-width="1"/>
+<line x1="162.2" y1="341.2" x2="282.3" y2="101.1" stroke="#40668d" stroke-width="2.4"/>
+<polygon points="286.2,93.2 285.3,104.2 278.0,100.5" fill="#40668d"/>
+<text xml:space="preserve" x="296.2" y="99.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">B = [2, 4]</text>
+<line x1="162.2" y1="341.2" x2="220.3" y2="225.1" stroke="#0066cc" stroke-width="3.6"/>
+<polygon points="224.2,217.2 223.3,228.2 216.0,224.5" fill="#0066cc"/>
+<text xml:space="preserve" x="236.2" y="225.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">A = [1, 2]</text>
+<line x1="24" y1="394" x2="50" y2="394" stroke="#0066cc" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">‖A‖ = √5 ≈ 2.24</text>
+<line x1="194.0" y1="394" x2="220.0" y2="394" stroke="#40668d" stroke-width="2.4"/>
+<text xml:space="preserve" x="228.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">‖B‖ = √20 ≈ 4.47</text>
+</svg>

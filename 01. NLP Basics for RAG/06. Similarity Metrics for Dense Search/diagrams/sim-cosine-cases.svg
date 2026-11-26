@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 360" width="840" height="360" role="img" aria-labelledby="sim-cosine-cases-title sim-cosine-cases-desc">
+<title id="sim-cosine-cases-title">Cosine depends only on the angle</title>
+<desc id="sim-cosine-cases-desc">Small angle gives high cosine, 90 degrees gives cosine 0, opposite direction gives a negative cosine.</desc>
+<rect width="840" height="360" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="839" height="359" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Cosine = how much two arrows point the same way</text>
+<clipPath id="sim-cosine-cases-clip1"><rect x="24" y="56" width="248" height="220" rx="6"/></clipPath>
+<rect x="24" y="56" width="248" height="220" rx="6" fill="#f3f3f4"/>
+<text xml:space="preserve" x="148.0" y="298.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">Small angle: high cosine</text>
+<line x1="148.0" y1="190.4" x2="227.8" y2="190.4" stroke="#161f34" stroke-width="2.2"/>
+<polygon points="236.6,190.4 226.4,194.4 226.4,186.3" fill="#161f34"/>
+<text xml:space="preserve" x="230.6" y="210.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="148.0" y1="190.4" x2="220.3" y2="156.6" stroke="#0066cc" stroke-width="2.2"/>
+<polygon points="228.3,152.9 220.7,160.9 217.3,153.5" fill="#0066cc"/>
+<text xml:space="preserve" x="236.3" y="146.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B</text>
+<polyline points="174.6,190.4 174.6,189.9 174.6,189.4 174.5,188.9 174.5,188.4 174.5,187.9 174.4,187.5 174.4,187.0 174.3,186.5 174.2,186.0 174.1,185.6 174.0,185.1 173.9,184.6 173.8,184.1 173.7,183.7 173.6,183.2 173.5,182.7 173.3,182.3 173.2,181.8 173.0,181.4 172.8,180.9 172.7,180.5 172.5,180.0 172.3,179.6 172.1,179.1" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text xml:space="preserve" x="211.8" y="97.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">cos 25° = 0.91</text>
+<clipPath id="sim-cosine-cases-clip2"><rect x="296" y="56" width="248" height="220" rx="6"/></clipPath>
+<rect x="296" y="56" width="248" height="220" rx="6" fill="#f3f3f4"/>
+<text xml:space="preserve" x="420.0" y="298.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">90°: cosine 0</text>
+<line x1="420.0" y1="190.4" x2="499.8" y2="190.4" stroke="#161f34" stroke-width="2.2"/>
+<polygon points="508.6,190.4 498.4,194.4 498.4,186.3" fill="#161f34"/>
+<text xml:space="preserve" x="502.6" y="210.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="420.0" y1="190.4" x2="420.0" y2="110.6" stroke="#0066cc" stroke-width="2.2"/>
+<polygon points="420.0,101.8 424.1,112.0 415.9,112.0" fill="#0066cc"/>
+<text xml:space="preserve" x="428.0" y="95.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B</text>
+<polyline points="446.6,190.4 446.5,188.6 446.3,186.9 446.1,185.2 445.7,183.5 445.2,181.8 444.5,180.2 443.8,178.6 443.0,177.1 442.1,175.6 441.1,174.2 440.0,172.8 438.8,171.6 437.5,170.4 436.2,169.3 434.8,168.3 433.3,167.3 431.8,166.5 430.2,165.8 428.5,165.2 426.9,164.7 425.2,164.3 423.5,164.0 421.7,163.8 420.0,163.8" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text xml:space="preserve" x="483.8" y="97.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">cos 90° = 0</text>
+<clipPath id="sim-cosine-cases-clip3"><rect x="568" y="56" width="248" height="220" rx="6"/></clipPath>
+<rect x="568" y="56" width="248" height="220" rx="6" fill="#f3f3f4"/>
+<text xml:space="preserve" x="692.0" y="298.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">Opposite: negative</text>
+<line x1="692.0" y1="190.4" x2="771.8" y2="190.4" stroke="#161f34" stroke-width="2.2"/>
+<polygon points="780.6,190.4 770.4,194.4 770.4,186.3" fill="#161f34"/>
+<text xml:space="preserve" x="774.6" y="210.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="692.0" y1="190.4" x2="617.0" y2="163.1" stroke="#0066cc" stroke-width="2.2"/>
+<polygon points="608.8,160.1 619.8,159.7 617.0,167.4" fill="#0066cc"/>
+<text xml:space="preserve" x="616.8" y="154.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B</text>
+<polyline points="718.6,190.4 718.4,187.3 717.9,184.2 717.0,181.3 715.7,178.4 714.2,175.8 712.4,173.3 710.2,171.0 707.9,169.0 705.3,167.3 702.5,166.0 699.6,164.9 696.6,164.2 693.5,163.8 690.5,163.8 687.4,164.2 684.4,164.9 681.5,166.0 678.7,167.3 676.1,169.0 673.8,171.0 671.6,173.3 669.8,175.8 668.3,178.4 667.0,181.3" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text xml:space="preserve" x="755.8" y="97.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">cos 160° = −0.94</text>
+</svg>
