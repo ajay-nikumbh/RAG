@@ -106,3 +106,7 @@ stops being an abstraction.
    Section 8 with a self-authored example instead of the notebook's.
 5. Implement Euclidean distance and compare rankings with cosine. Makes the "why
    cosine, not Euclidean" argument concrete rather than assumed.
+
+## Hybrid Search modules
+
+- **1a** · [What is Hybrid Search RAG](1a.%20What%20is%20Hybrid%20Search%20RAG/) · Done
