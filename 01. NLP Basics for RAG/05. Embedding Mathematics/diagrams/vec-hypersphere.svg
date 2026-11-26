@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" role="img" aria-labelledby="vec-hypersphere-title vec-hypersphere-desc">
+<title id="vec-hypersphere-title">Normalized embeddings live on the unit sphere</title>
+<desc id="vec-hypersphere-desc">After L2 normalization every embedding has length 1, so only the angle between them differs.</desc>
+<rect width="560" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="439" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">After normalization, only direction is left</text>
+<clipPath id="vec-hypersphere-clip1"><rect x="24" y="56" width="512" height="330" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="330" rx="6" fill="#f3f3f4"/>
+<line x1="24" y1="227.3" x2="536" y2="227.3" stroke="#4f5d73" stroke-width="1"/>
+<line x1="280.0" y1="56" x2="280.0" y2="386" stroke="#4f5d73" stroke-width="1"/>
+<circle cx="280.0" cy="227.3" r="126.9" fill="none" stroke="#b8915a" stroke-width="1.8" clip-path="url(#vec-hypersphere-clip1)"/>
+<line x1="280.0" y1="227.3" x2="384.3" y2="171.9" stroke="#0066cc" stroke-width="2"/>
+<polygon points="392.1,167.8 385.0,176.2 381.1,169.0" fill="#0066cc"/>
+<text x="414.5" y="163.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">annual leave</text>
+<line x1="280.0" y1="227.3" x2="370.5" y2="151.4" stroke="#0066cc" stroke-width="2"/>
+<polygon points="377.2,145.8 372.0,155.5 366.8,149.2" fill="#0066cc"/>
+<text x="396.7" y="138.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">vacation days</text>
+<line x1="280.0" y1="227.3" x2="204.1" y2="136.9" stroke="#40668d" stroke-width="2"/>
+<polygon points="198.4,130.1 208.1,135.3 201.9,140.6" fill="#40668d"/>
+<text x="182.1" y="120.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#40668d" text-anchor="end">medical insurance</text>
+<line x1="280.0" y1="227.3" x2="183.2" y2="295.1" stroke="#735a6c" stroke-width="2"/>
+<polygon points="176.0,300.1 182.1,290.9 186.7,297.6" fill="#735a6c"/>
+<text x="155.2" y="316.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="end">database server</text>
+<line x1="280.0" y1="227.3" x2="339.1" y2="329.6" stroke="#7c8f6f" stroke-width="2"/>
+<polygon points="343.5,337.3 334.8,330.5 341.9,326.4" fill="#7c8f6f"/>
+<text x="356.2" y="358.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="start">office in Munich</text>
+<polyline points="330.4,200.5 330.2,200.1 330.0,199.7 329.7,199.2 329.5,198.8 329.2,198.4 329.0,197.9 328.7,197.5 328.4,197.1 328.2,196.7 327.9,196.2 327.6,195.8 327.4,195.4 327.1,195.0 326.8,194.6 326.5,194.2 326.2,193.8 325.9,193.4 325.6,193.0 325.3,192.6 325.0,192.2 324.7,191.8 324.4,191.4 324.1,191.0 323.8,190.6" fill="none" stroke="#161f34" stroke-width="1.8"/>
+<text x="358.7" y="259.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">close meaning = small angle</text>
+<line x1="24" y1="414" x2="50" y2="414" stroke="#b8915a" stroke-width="2.4"/>
+<text x="58.0" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">length = 1 for every vector</text>
+</svg>

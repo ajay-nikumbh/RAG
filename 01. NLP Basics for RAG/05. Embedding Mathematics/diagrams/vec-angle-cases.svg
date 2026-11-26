@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 360" width="840" height="360" role="img" aria-labelledby="vec-angle-cases-title vec-angle-cases-desc">
+<title id="vec-angle-cases-title">Angle decides the sign of the dot product</title>
+<desc id="vec-angle-cases-desc">Same direction gives cosine near 1, perpendicular gives 0, opposite gives -1.</desc>
+<rect width="840" height="360" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="839" height="359" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">The angle θ between A and B</text>
+<clipPath id="vec-angle-cases-clip1"><rect x="24" y="56" width="248" height="220" rx="6"/></clipPath>
+<rect x="24" y="56" width="248" height="220" rx="6" fill="#f3f3f4"/>
+<text x="148.0" y="298.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">Same direction: cos θ ≈ 1</text>
+<line x1="148.0" y1="190.4" x2="227.8" y2="190.4" stroke="#161f34" stroke-width="2.2"/>
+<polygon points="236.6,190.4 226.4,194.4 226.4,186.3" fill="#161f34"/>
+<text x="230.6" y="210.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="148.0" y1="190.4" x2="223.0" y2="163.1" stroke="#0066cc" stroke-width="2.2"/>
+<polygon points="231.2,160.1 223.0,167.4 220.2,159.7" fill="#0066cc"/>
+<text x="239.2" y="152.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B</text>
+<polyline points="179.0,190.4 179.0,189.9 179.0,189.5 179.0,189.0 178.9,188.6 178.9,188.1 178.9,187.7 178.8,187.2 178.8,186.8 178.7,186.3 178.7,185.9 178.6,185.4 178.5,185.0 178.4,184.5 178.4,184.1 178.3,183.6 178.2,183.2 178.1,182.8 177.9,182.3 177.8,181.9 177.7,181.5 177.6,181.0 177.4,180.6 177.3,180.2 177.1,179.8" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text x="196.7" y="146.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">θ ≈ 20°</text>
+<clipPath id="vec-angle-cases-clip2"><rect x="296" y="56" width="248" height="220" rx="6"/></clipPath>
+<rect x="296" y="56" width="248" height="220" rx="6" fill="#f3f3f4"/>
+<text x="420.0" y="298.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">Perpendicular: cos θ = 0</text>
+<line x1="420.0" y1="190.4" x2="499.8" y2="190.4" stroke="#161f34" stroke-width="2.2"/>
+<polygon points="508.6,190.4 498.4,194.4 498.4,186.3" fill="#161f34"/>
+<text x="502.6" y="210.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="420.0" y1="190.4" x2="420.0" y2="110.6" stroke="#0066cc" stroke-width="2.2"/>
+<polygon points="420.0,101.8 424.1,112.0 415.9,112.0" fill="#0066cc"/>
+<text x="428.0" y="93.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B</text>
+<polyline points="451.0,190.4 450.9,188.3 450.7,186.3 450.4,184.3 449.9,182.3 449.4,180.4 448.6,178.5 447.8,176.6 446.8,174.9 445.8,173.1 444.6,171.5 443.3,169.9 441.9,168.4 440.4,167.1 438.9,165.8 437.2,164.6 435.5,163.5 433.7,162.6 431.9,161.7 430.0,161.0 428.0,160.4 426.0,160.0 424.0,159.6 422.0,159.4 420.0,159.4" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text x="468.7" y="146.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">θ = 90°</text>
+<clipPath id="vec-angle-cases-clip3"><rect x="568" y="56" width="248" height="220" rx="6"/></clipPath>
+<rect x="568" y="56" width="248" height="220" rx="6" fill="#f3f3f4"/>
+<text x="692.0" y="298.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">Opposite: cos θ = -1</text>
+<line x1="692.0" y1="190.4" x2="771.8" y2="190.4" stroke="#161f34" stroke-width="2.2"/>
+<polygon points="780.6,190.4 770.4,194.4 770.4,186.3" fill="#161f34"/>
+<text x="774.6" y="210.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="692.0" y1="190.4" x2="612.2" y2="190.4" stroke="#0066cc" stroke-width="2.2"/>
+<polygon points="603.4,190.4 613.6,186.3 613.6,194.4" fill="#0066cc"/>
+<text x="585.4" y="182.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B</text>
+<polyline points="723.0,190.4 722.7,186.3 721.9,182.3 720.6,178.5 718.8,174.9 716.6,171.5 713.9,168.4 710.9,165.8 707.5,163.5 703.9,161.7 700.0,160.4 696.0,159.6 692.0,159.4 688.0,159.6 684.0,160.4 680.1,161.7 676.5,163.5 673.1,165.8 670.1,168.4 667.4,171.5 665.2,174.9 663.4,178.5 662.1,182.3 661.3,186.3 661.0,190.4" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text x="692.0" y="106.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">θ = 180°</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 450" width="560" height="450" role="img" aria-labelledby="vec-l2-l1-title vec-l2-l1-desc">
+<title id="vec-l2-l1-title">Euclidean vs Manhattan distance</title>
+<desc id="vec-l2-l1-desc">Between A = (1, 2) and B = (4, 6) the straight line is 5 and the city-block path is 7.</desc>
+<rect width="560" height="450" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="449" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">A(1, 2) to B(4, 6): ruler 5, city blocks 7</text>
+<clipPath id="vec-l2-l1-clip1"><rect x="24" y="56" width="512" height="330" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="330" rx="6" fill="#f3f3f4"/>
+<line x1="27.0" y1="56" x2="27.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="71.0" y1="56" x2="71.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="115.0" y1="56" x2="115.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="159.0" y1="56" x2="159.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="203.0" y1="56" x2="203.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="247.0" y1="56" x2="247.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="291.0" y1="56" x2="291.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="335.0" y1="56" x2="335.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="379.0" y1="56" x2="379.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="423.0" y1="56" x2="423.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="467.0" y1="56" x2="467.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="511.0" y1="56" x2="511.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="364.0" x2="536" y2="364.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="320.0" x2="536" y2="320.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="276.0" x2="536" y2="276.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="232.0" x2="536" y2="232.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="188.0" x2="536" y2="188.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="144.0" x2="536" y2="144.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="100.0" x2="536" y2="100.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="56.0" x2="536" y2="56.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="364.0" x2="536" y2="364.0" stroke="#4f5d73" stroke-width="1"/>
+<line x1="159.0" y1="56" x2="159.0" y2="386" stroke="#4f5d73" stroke-width="1"/>
+<polyline points="203.0,276.0 247.0,276.0 291.0,276.0 335.0,276.0 335.0,232.0 335.0,188.0 335.0,144.0 335.0,100.0" fill="none" stroke="#b8915a" stroke-width="3"/>
+<line x1="203.0" y1="276.0" x2="335.0" y2="100.0" stroke="#0066cc" stroke-width="3"/>
+<circle cx="203.0" cy="276.0" r="4.5" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<text x="133.0" y="280.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">A (1, 2)</text>
+<circle cx="335.0" cy="100.0" r="4.5" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<text x="345.0" y="94.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">B (4, 6)</text>
+<text x="269.0" y="295.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="middle">3 steps along x</text>
+<text x="341.6" y="188.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">4 steps</text>
+<text x="341.6" y="205.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">along y</text>
+<text x="253.6" y="172.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="end">√(3² + 4²) = 5</text>
+<line x1="24" y1="424" x2="50" y2="424" stroke="#0066cc" stroke-width="2.4"/>
+<text x="58.0" y="428.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Euclidean (L2) = 5</text>
+<line x1="215.6" y1="424" x2="241.6" y2="424" stroke="#b8915a" stroke-width="2.4"/>
+<text x="249.6" y="428.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Manhattan (L1) = 3 + 4 = 7</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" role="img" aria-labelledby="vec-addition-title vec-addition-desc">
+<title id="vec-addition-title">Adding vectors tip to tail</title>
+<desc id="vec-addition-desc">A = [1, 2] followed by B = [3, 4] lands at A + B = [4, 6].</desc>
+<rect width="560" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="439" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">A + B: walk A, then walk B</text>
+<clipPath id="vec-addition-clip1"><rect x="24" y="56" width="512" height="330" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="330" rx="6" fill="#f3f3f4"/>
+<line x1="31.4" y1="56" x2="31.4" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="76.6" y1="56" x2="76.6" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="121.8" y1="56" x2="121.8" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="167.0" y1="56" x2="167.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="212.2" y1="56" x2="212.2" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="257.4" y1="56" x2="257.4" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="302.6" y1="56" x2="302.6" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="347.8" y1="56" x2="347.8" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="393.0" y1="56" x2="393.0" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="438.2" y1="56" x2="438.2" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="483.4" y1="56" x2="483.4" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="528.6" y1="56" x2="528.6" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="363.4" x2="536" y2="363.4" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="318.2" x2="536" y2="318.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="273.0" x2="536" y2="273.0" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="227.8" x2="536" y2="227.8" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="182.6" x2="536" y2="182.6" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="137.4" x2="536" y2="137.4" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="92.2" x2="536" y2="92.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="363.4" x2="536" y2="363.4" stroke="#4f5d73" stroke-width="1"/>
+<line x1="121.8" y1="56" x2="121.8" y2="386" stroke="#4f5d73" stroke-width="1"/>
+<line x1="121.8" y1="363.4" x2="163.1" y2="280.9" stroke="#161f34" stroke-width="2.6"/>
+<polygon points="167.0,273.0 166.1,283.9 158.8,280.3" fill="#161f34"/>
+<text x="132.6" y="313.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="end">1. walk A = [1, 2]</text>
+<line x1="167.0" y1="273.0" x2="297.3" y2="99.2" stroke="#40668d" stroke-width="2.6"/>
+<polygon points="302.6,92.2 299.7,102.8 293.2,97.9" fill="#40668d"/>
+<text x="227.6" y="169.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="end">2. then walk B = [3, 4]</text>
+<line x1="121.8" y1="363.4" x2="297.7" y2="99.5" stroke="#0066cc" stroke-width="2.8"/>
+<polygon points="302.6,92.2 300.3,102.9 293.5,98.4" fill="#0066cc"/>
+<text x="235.2" y="226.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">A + B = [4, 6]</text>
+<circle cx="302.6" cy="92.2" r="3.5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="312.6" y="96.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">(4, 6)</text>
+<line x1="24" y1="414" x2="50" y2="414" stroke="#161f34" stroke-width="2.4"/>
+<text x="58.0" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">A</text>
+<line x1="93.2" y1="414" x2="119.2" y2="414" stroke="#40668d" stroke-width="2.4"/>
+<text x="127.2" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">B, starting at the tip of A</text>
+<line x1="349.59999999999997" y1="414" x2="375.59999999999997" y2="414" stroke="#0066cc" stroke-width="2.4"/>
+<text x="383.6" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">sum</text>
+</svg>

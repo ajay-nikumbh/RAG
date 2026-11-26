@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 450" width="560" height="450" role="img" aria-labelledby="vec-chord-title vec-chord-desc">
+<title id="vec-chord-title">Cosine and Euclidean distance on the unit circle</title>
+<desc id="vec-chord-desc">Two unit vectors with cosine 0.8013 are 36.7 degrees apart and their tips are 0.630 apart.</desc>
+<rect width="560" height="450" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="449" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Unit vectors: ‖A − B‖² = 2 − 2 cos θ</text>
+<clipPath id="vec-chord-clip1"><rect x="24" y="56" width="512" height="340" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="340" rx="6" fill="#f3f3f4"/>
+<line x1="24" y1="308.6" x2="536" y2="308.6" stroke="#4f5d73" stroke-width="1"/>
+<line x1="271.7" y1="56" x2="271.7" y2="396" stroke="#4f5d73" stroke-width="1"/>
+<circle cx="271.7" cy="308.6" r="165.2" fill="none" stroke="#b8915a" stroke-width="1.4" stroke-dasharray="5,4" clip-path="url(#vec-chord-clip1)"/>
+<line x1="271.7" y1="308.6" x2="422.8" y2="268.1" stroke="#161f34" stroke-width="2.6"/>
+<polygon points="431.3,265.8 422.5,272.4 420.4,264.5" fill="#161f34"/>
+<text x="439.3" y="273.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A</text>
+<line x1="271.7" y1="308.6" x2="368.6" y2="185.8" stroke="#0066cc" stroke-width="2.6"/>
+<polygon points="374.0,178.9 370.9,189.4 364.5,184.4" fill="#0066cc"/>
+<text x="368.0" y="168.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B</text>
+<line x1="431.3" y1="265.8" x2="374.0" y2="178.9" stroke="#735a6c" stroke-width="2.6"/>
+<polyline points="319.6,295.8 319.2,294.5 318.8,293.2 318.4,292.0 318.0,290.7 317.5,289.5 316.9,288.3 316.4,287.1 315.8,285.9 315.2,284.7 314.5,283.6 313.8,282.4 313.1,281.3 312.4,280.2 311.6,279.2 310.8,278.1 310.0,277.1 309.1,276.1 308.2,275.1 307.3,274.1 306.4,273.2 305.4,272.3 304.5,271.4 303.4,270.5 302.4,269.7" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text x="343.5" y="269.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">θ = 36.7°</text>
+<text x="415.9" y="219.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#735a6c" text-anchor="start">‖A − B‖ = 0.630</text>
+<text x="40.5" y="354.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">reset my password  /  I forgot my login password</text>
+<line x1="24" y1="424" x2="50" y2="424" stroke="#735a6c" stroke-width="2.4"/>
+<text x="58.0" y="428.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">distance² = 0.3974 = 2 − 2 × 0.8013</text>
+</svg>

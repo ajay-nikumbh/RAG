@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" width="560" height="400" role="img" aria-labelledby="vec-mag-dir-title vec-mag-dir-desc">
+<title id="vec-mag-dir-title">Magnitude vs direction</title>
+<desc id="vec-mag-dir-desc">A = [1, 1] and B = [100, 100] point the same way: cosine is 1 but Euclidean distance is about 140.</desc>
+<rect width="560" height="400" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="399" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Same direction, very different length</text>
+<clipPath id="vec-mag-dir-clip1"><rect x="24" y="56" width="512" height="290" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="290" rx="6" fill="#f3f3f4"/>
+<line x1="24" y1="325.3" x2="536" y2="325.3" stroke="#4f5d73" stroke-width="1"/>
+<line x1="72.9" y1="56" x2="72.9" y2="346" stroke="#4f5d73" stroke-width="1"/>
+<line x1="72.9" y1="325.3" x2="458.8" y2="97.8" stroke="#40668d" stroke-width="2.2"/>
+<polygon points="466.4,93.3 459.7,102.0 455.6,95.0" fill="#40668d"/>
+<text x="326.9" y="207.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">B = [100, 100] (not to scale)</text>
+<line x1="72.9" y1="325.3" x2="135.7" y2="288.3" stroke="#0066cc" stroke-width="3.4"/>
+<polygon points="143.3,283.9 136.5,292.6 132.4,285.5" fill="#0066cc"/>
+<text x="151.3" y="299.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">A = [1, 1]</text>
+<line x1="132.9" y1="266.0" x2="456.1" y2="75.5" stroke="#735a6c" stroke-width="2.4" stroke-dasharray="6,4"/>
+<line x1="128.8" y1="259.0" x2="137.1" y2="273.1" stroke="#735a6c" stroke-width="2"/>
+<line x1="451.9" y1="68.4" x2="460.2" y2="82.5" stroke="#735a6c" stroke-width="2"/>
+<text x="263.4" y="151.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#735a6c" text-anchor="end">Euclidean ≈ 140</text>
+<text x="362.9" y="267.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">cosine = 1 (θ = 0°)</text>
+<line x1="24" y1="374" x2="50" y2="374" stroke="#735a6c" stroke-width="2.4" stroke-dasharray="5,4"/>
+<text x="58.0" y="378.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">gap that Euclidean sees</text>
+</svg>

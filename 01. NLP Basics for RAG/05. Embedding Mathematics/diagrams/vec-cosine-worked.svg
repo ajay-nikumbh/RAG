@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 430" width="560" height="430" role="img" aria-labelledby="vec-cosine-worked-title vec-cosine-worked-desc">
+<title id="vec-cosine-worked-title">Worked cosine example</title>
+<desc id="vec-cosine-worked-desc">A = [1, 2] and B = [2, 3] are only 7.1 degrees apart, so cosine is 0.992.</desc>
+<rect width="560" height="430" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="429" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">A = [1, 2], B = [2, 3]: θ ≈ 7.1°, cos θ ≈ 0.992</text>
+<clipPath id="vec-cosine-worked-clip1"><rect x="24" y="56" width="512" height="320" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="320" rx="6" fill="#f3f3f4"/>
+<line x1="89.5" y1="56" x2="89.5" y2="376" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="165.7" y1="56" x2="165.7" y2="376" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="241.9" y1="56" x2="241.9" y2="376" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="318.1" y1="56" x2="318.1" y2="376" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="394.3" y1="56" x2="394.3" y2="376" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="470.5" y1="56" x2="470.5" y2="376" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="330.3" x2="536" y2="330.3" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="254.1" x2="536" y2="254.1" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="177.9" x2="536" y2="177.9" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="101.7" x2="536" y2="101.7" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="330.3" x2="536" y2="330.3" stroke="#4f5d73" stroke-width="1"/>
+<line x1="165.7" y1="56" x2="165.7" y2="376" stroke="#4f5d73" stroke-width="1"/>
+<line x1="165.7" y1="330.3" x2="238.0" y2="185.8" stroke="#161f34" stroke-width="2.6"/>
+<polygon points="241.9,177.9 241.0,188.9 233.7,185.2" fill="#161f34"/>
+<text x="123.6" y="246.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">A = [1, 2]</text>
+<line x1="165.7" y1="330.3" x2="313.2" y2="109.0" stroke="#0066cc" stroke-width="2.6"/>
+<polygon points="318.1,101.7 315.8,112.5 309.0,108.0" fill="#0066cc"/>
+<text x="314.9" y="130.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">B = [2, 3]</text>
+<polyline points="216.4,254.2 216.0,254.0 215.6,253.7 215.2,253.4 214.8,253.2 214.4,252.9 214.0,252.7 213.6,252.4 213.2,252.2 212.8,251.9 212.4,251.7 212.0,251.4 211.6,251.2 211.2,251.0 210.8,250.7 210.4,250.5 210.0,250.3 209.5,250.0 209.1,249.8 208.7,249.6 208.3,249.4 207.9,249.2 207.4,248.9 207.0,248.7 206.6,248.5" fill="none" stroke="#b8915a" stroke-width="1.8"/>
+<text x="221.2" y="238.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="middle">θ</text>
+<text x="424.8" y="307.4" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="400" fill="#4f5d73" text-anchor="end">cos θ = 8 / √65</text>
+</svg>

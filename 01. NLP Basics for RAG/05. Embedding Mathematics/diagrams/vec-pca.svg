@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" role="img" aria-labelledby="vec-pca-title vec-pca-desc">
+<title id="vec-pca-title">PCA finds the direction of largest variance</title>
+<desc id="vec-pca-desc">A long thin 2D cloud: PC1 runs along its length, PC2 across its narrow width.</desc>
+<rect width="560" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="439" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">PC1 = most variance, PC2 = least</text>
+<clipPath id="vec-pca-clip1"><rect x="24" y="56" width="512" height="330" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="330" rx="6" fill="#f3f3f4"/>
+<line x1="24" y1="221.0" x2="536" y2="221.0" stroke="#4f5d73" stroke-width="1"/>
+<line x1="280.0" y1="56" x2="280.0" y2="386" stroke="#4f5d73" stroke-width="1"/>
+<circle cx="410.6" cy="133.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="118.1" cy="333.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="294.3" cy="183.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="252.6" cy="259.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="247.5" cy="234.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="274.5" cy="243.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="136.6" cy="285.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="265.0" cy="230.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="226.5" cy="261.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="511.0" cy="107.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="281.0" cy="189.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="250.8" cy="225.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="255.5" cy="222.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="227.1" cy="233.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="208.2" cy="259.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="259.7" cy="245.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="318.0" cy="211.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="271.0" cy="241.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="331.4" cy="164.0" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="278.9" cy="248.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="286.5" cy="227.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="383.6" cy="162.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="313.8" cy="195.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="242.3" cy="234.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="278.3" cy="244.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="329.4" cy="221.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="406.4" cy="142.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="252.5" cy="216.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="257.9" cy="221.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="343.7" cy="177.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="224.7" cy="261.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="258.6" cy="229.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="339.6" cy="188.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="311.2" cy="186.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="292.5" cy="227.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="322.7" cy="191.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="96.2" cy="337.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="342.3" cy="172.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="215.5" cy="257.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="150.2" cy="255.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="285.8" cy="190.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="313.5" cy="172.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="267.6" cy="265.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="212.5" cy="269.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="286.7" cy="227.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="272.2" cy="216.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="390.4" cy="193.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="319.2" cy="175.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="283.9" cy="199.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="363.2" cy="192.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="274.6" cy="242.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="226.1" cy="269.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="317.8" cy="196.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="312.8" cy="188.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="249.3" cy="203.0" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="230.5" cy="255.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="288.7" cy="201.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="115.9" cy="320.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="310.7" cy="169.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="306.0" cy="191.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="161.8" cy="270.0" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="292.8" cy="232.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="218.6" cy="262.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="336.1" cy="200.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="134.9" cy="284.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="214.9" cy="249.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="328.8" cy="196.0" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="359.2" cy="179.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="135.1" cy="302.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="253.2" cy="250.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<line x1="280.0" y1="221.0" x2="426.5" y2="129.5" stroke="#0066cc" stroke-width="3.2"/>
+<polygon points="433.9,124.8 427.4,133.7 423.1,126.8" fill="#0066cc"/>
+<text x="427.9" y="112.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="end">PC1: large variation</text>
+<line x1="280.0" y1="221.0" x2="258.4" y2="186.5" stroke="#735a6c" stroke-width="3"/>
+<polygon points="253.8,179.0 262.6,185.5 255.7,189.8" fill="#735a6c"/>
+<text x="245.8" y="173.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#735a6c" text-anchor="end">PC2: narrow</text>
+<line x1="24" y1="414" x2="50" y2="414" stroke="#0066cc" stroke-width="2.4"/>
+<text x="58.0" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">keep this direction</text>
+<line x1="222.8" y1="414" x2="248.8" y2="414" stroke="#735a6c" stroke-width="2.4"/>
+<text x="256.8" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">drop this one</text>
+</svg>

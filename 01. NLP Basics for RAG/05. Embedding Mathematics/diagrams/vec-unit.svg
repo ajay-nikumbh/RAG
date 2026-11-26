@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" role="img" aria-labelledby="vec-unit-title vec-unit-desc">
+<title id="vec-unit-title">Normalization moves a vector onto the unit circle</title>
+<desc id="vec-unit-desc">v = [3, 4] (length 5) becomes v-hat = [0.6, 0.8] (length 1) and keeps its direction.</desc>
+<rect width="560" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="439" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Normalize: divide by the length</text>
+<clipPath id="vec-unit-clip1"><rect x="24" y="56" width="512" height="330" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="330" rx="6" fill="#f3f3f4"/>
+<line x1="79.6" y1="56" x2="79.6" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="138.6" y1="56" x2="138.6" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="197.5" y1="56" x2="197.5" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="256.4" y1="56" x2="256.4" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="315.4" y1="56" x2="315.4" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="374.3" y1="56" x2="374.3" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="433.2" y1="56" x2="433.2" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="492.1" y1="56" x2="492.1" y2="386" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="374.2" x2="536" y2="374.2" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="315.3" x2="536" y2="315.3" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="256.4" x2="536" y2="256.4" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="197.4" x2="536" y2="197.4" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="138.5" x2="536" y2="138.5" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="79.6" x2="536" y2="79.6" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="315.3" x2="536" y2="315.3" stroke="#4f5d73" stroke-width="1"/>
+<line x1="197.5" y1="56" x2="197.5" y2="386" stroke="#4f5d73" stroke-width="1"/>
+<circle cx="197.5" cy="315.3" r="58.9" fill="none" stroke="#b8915a" stroke-width="1.6" stroke-dasharray="5,4" clip-path="url(#vec-unit-clip1)"/>
+<line x1="197.5" y1="315.3" x2="369.0" y2="86.6" stroke="#40668d" stroke-width="2"/>
+<polygon points="374.3,79.6 371.4,90.2 364.9,85.3" fill="#40668d"/>
+<text x="350.9" y="130.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">v = [3, 4], length 5</text>
+<line x1="197.5" y1="315.3" x2="227.6" y2="275.2" stroke="#0066cc" stroke-width="3.2"/>
+<polygon points="232.9,268.1 230.0,278.8 223.5,273.9" fill="#0066cc"/>
+<circle cx="232.9" cy="268.1" r="3.5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="220.9" y="258.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">v̂ = [0.6, 0.8]</text>
+<text x="244.6" y="359.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">unit circle</text>
+<line x1="24" y1="414" x2="50" y2="414" stroke="#0066cc" stroke-width="2.4"/>
+<text x="58.0" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">unit vector</text>
+<line x1="165.2" y1="414" x2="191.2" y2="414" stroke="#b8915a" stroke-width="2.4" stroke-dasharray="5,4"/>
+<text x="199.2" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">all points with length 1</text>
+</svg>
