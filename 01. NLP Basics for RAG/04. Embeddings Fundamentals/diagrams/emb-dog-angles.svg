@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 440" width="620" height="440" role="img" aria-labelledby="emb-dog-angles-title emb-dog-angles-desc">
+<title id="emb-dog-angles-title">dog is closer to puppy than to database</title>
+<desc id="emb-dog-angles-desc">Angles drawn from real cosine scores of all-MiniLM-L6-v2: a smaller angle means more similar.</desc>
+<rect width="620" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="439" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">dog vs puppy vs database: real angles</text>
+<clipPath id="emb-dog-angles-clip1"><rect x="24" y="56" width="572" height="330" rx="6"/></clipPath>
+<rect x="24" y="56" width="572" height="330" rx="6" fill="#f3f3f4"/>
+<line x1="224.7" y1="340.5" x2="489.0" y2="340.5" stroke="#161f34" stroke-width="2.6"/>
+<polygon points="497.8,340.5 487.5,344.6 487.5,336.4" fill="#161f34"/>
+<text x="502.3" y="363.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="end">dog</text>
+<line x1="224.7" y1="340.5" x2="409.7" y2="203.6" stroke="#0066cc" stroke-width="2.4"/>
+<polygon points="416.8,198.4 411.0,207.7 406.1,201.2" fill="#0066cc"/>
+<text x="425.9" y="184.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">puppy  (cos 0.804, 36°)</text>
+<line x1="224.7" y1="340.5" x2="376.7" y2="167.7" stroke="#40668d" stroke-width="2.4"/>
+<polygon points="382.5,161.1 378.8,171.5 372.7,166.1" fill="#40668d"/>
+<text x="391.6" y="147.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#40668d" text-anchor="start">cat  (cos 0.661, 49°)</text>
+<line x1="224.7" y1="340.5" x2="270.9" y2="115.0" stroke="#735a6c" stroke-width="2.4"/>
+<polygon points="272.7,106.4 274.6,117.2 266.6,115.6" fill="#735a6c"/>
+<text x="281.8" y="92.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="start">database  (cos 0.201, 78°)</text>
+<text x="24.0" y="425.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">all-MiniLM-L6-v2, normalized vectors; angle = arccos(cosine).</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 470" width="620" height="470" role="img" aria-labelledby="emb-map-topics-title emb-map-topics-desc">
+<title id="emb-map-topics-title">Meaning map: animals, vehicles, databases</title>
+<desc id="emb-map-topics-desc">2D PCA projection of real all-MiniLM-L6-v2 embeddings; related phrases land near each other.</desc>
+<rect width="620" height="470" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="469" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Related words form neighbourhoods</text>
+<clipPath id="emb-map-topics-clip1"><rect x="24" y="56" width="572" height="350" rx="6"/></clipPath>
+<rect x="24" y="56" width="572" height="350" rx="6" fill="#f3f3f4"/>
+<circle cx="227.1" cy="174.4" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<circle cx="218.7" cy="173.0" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<circle cx="238.1" cy="160.0" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<circle cx="229.6" cy="158.8" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<line x1="229.6" y1="158.8" x2="181.3" y2="138.9" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="177.9" y="142.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">kitten</text>
+<line x1="238.1" y1="160.0" x2="181.3" y2="155.1" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="177.9" y="158.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">cat</text>
+<line x1="218.7" y1="173.0" x2="181.3" y2="171.2" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="177.9" y="174.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">puppy</text>
+<line x1="227.1" y1="174.4" x2="181.3" y2="187.4" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="177.9" y="190.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">dog</text>
+<circle cx="258.9" cy="322.1" r="5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<circle cx="265.2" cy="339.1" r="5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<circle cx="293.8" cy="354.0" r="5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<line x1="258.9" y1="322.1" x2="225.5" y2="318.9" stroke="#0066cc" stroke-width="0.8"/>
+<text x="222.2" y="322.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">car</text>
+<line x1="265.2" y1="339.1" x2="225.5" y2="335.0" stroke="#0066cc" stroke-width="0.8"/>
+<text x="222.2" y="338.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">truck</text>
+<line x1="293.8" y1="354.0" x2="225.5" y2="351.2" stroke="#0066cc" stroke-width="0.8"/>
+<text x="222.2" y="354.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">bus</text>
+<circle cx="453.7" cy="215.0" r="5" fill="#b8915a" stroke="#b8915a" stroke-width="1.6"/>
+<circle cx="456.9" cy="202.8" r="5" fill="#b8915a" stroke="#b8915a" stroke-width="1.6"/>
+<circle cx="458.1" cy="210.9" r="5" fill="#b8915a" stroke="#b8915a" stroke-width="1.6"/>
+<line x1="456.9" y1="202.8" x2="503.3" y2="190.0" stroke="#b8915a" stroke-width="0.8"/>
+<text x="506.7" y="193.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">SQL</text>
+<line x1="458.1" y1="210.9" x2="503.3" y2="206.2" stroke="#b8915a" stroke-width="0.8"/>
+<text x="506.7" y="209.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">PostgreSQL</text>
+<line x1="453.7" y1="215.0" x2="503.3" y2="222.4" stroke="#b8915a" stroke-width="0.8"/>
+<text x="506.7" y="225.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">database</text>
+<line x1="24" y1="444" x2="50" y2="444" stroke="#7c8f6f" stroke-width="2.4"/>
+<text x="58.0" y="448.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">animals</text>
+<line x1="136.4" y1="444" x2="162.4" y2="444" stroke="#0066cc" stroke-width="2.4"/>
+<text x="170.4" y="448.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">vehicles</text>
+<line x1="256.0" y1="444" x2="282.0" y2="444" stroke="#b8915a" stroke-width="2.4"/>
+<text x="290.0" y="448.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">databases</text>
+</svg>

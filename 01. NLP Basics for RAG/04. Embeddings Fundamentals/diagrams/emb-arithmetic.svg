@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="emb-arithmetic-title emb-arithmetic-desc">
+<title id="emb-arithmetic-title">king - man + woman ≈ queen</title>
+<desc id="emb-arithmetic-desc">The step from man to king is about the same as the step from woman to queen (classic word2vec illustration).</desc>
+<rect width="560" height="420" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="419" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">king − man + woman ≈ queen (word vectors)</text>
+<clipPath id="emb-arithmetic-clip1"><rect x="24" y="56" width="512" height="310" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="310" rx="6" fill="#f3f3f4"/>
+<line x1="147.1" y1="310.6" x2="189.3" y2="142.0" stroke="#40668d" stroke-width="2.2"/>
+<polygon points="191.4,133.5 192.9,144.4 185.0,142.4" fill="#40668d"/>
+<text x="119.3" y="226.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">royal</text>
+<line x1="368.6" y1="288.5" x2="410.7" y2="119.9" stroke="#40668d" stroke-width="2.2"/>
+<polygon points="412.9,111.4 414.3,122.3 406.4,120.3" fill="#40668d"/>
+<text x="400.7" y="203.9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">royal</text>
+<line x1="147.1" y1="310.6" x2="359.8" y2="289.4" stroke="#b8915a" stroke-width="2.2" stroke-dasharray="5,4"/>
+<polygon points="368.6,288.5 358.8,293.6 358.0,285.5" fill="#b8915a"/>
+<text x="237.9" y="319.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#b8915a" text-anchor="start">gender</text>
+<circle cx="147.1" cy="310.6" r="6" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<text x="157.1" y="300.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">man</text>
+<circle cx="191.4" cy="133.5" r="6" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<text x="201.4" y="123.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">king</text>
+<circle cx="368.6" cy="288.5" r="6" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<text x="378.6" y="278.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">woman</text>
+<circle cx="412.9" cy="111.4" r="6" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="422.9" y="101.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">queen</text>
+<line x1="24" y1="394" x2="50" y2="394" stroke="#40668d" stroke-width="2.4"/>
+<text x="58.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">same offset: man to king, woman to queen</text>
+</svg>

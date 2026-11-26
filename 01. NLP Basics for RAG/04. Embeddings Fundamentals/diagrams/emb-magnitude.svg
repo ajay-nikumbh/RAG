@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" role="img" aria-labelledby="emb-magnitude-title emb-magnitude-desc">
+<title id="emb-magnitude-title">Cosine ignores magnitude</title>
+<desc id="emb-magnitude-desc">A = [1, 2] and B = [10, 20] point the same way, so cosine is 1 although B is ten times longer.</desc>
+<rect width="560" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="439" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">A = [1, 2], B = [10, 20]: cos θ = 1</text>
+<clipPath id="emb-magnitude-clip1"><rect x="24" y="56" width="512" height="330" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="330" rx="6" fill="#f3f3f4"/>
+<line x1="24" y1="371.3" x2="536" y2="371.3" stroke="#4f5d73" stroke-width="1"/>
+<line x1="203.0" y1="56" x2="203.0" y2="386" stroke="#4f5d73" stroke-width="1"/>
+<line x1="203.0" y1="371.3" x2="345.7" y2="85.9" stroke="#40668d" stroke-width="2.4"/>
+<polygon points="349.7,78.0 348.7,89.0 341.4,85.3" fill="#40668d"/>
+<text x="317.7" y="170.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">B = [10, 20], ‖B‖ = 10‖A‖</text>
+<line x1="203.0" y1="371.3" x2="213.7" y2="349.9" stroke="#0066cc" stroke-width="3.6"/>
+<polygon points="217.7,342.0 216.7,353.0 209.4,349.3" fill="#0066cc"/>
+<text x="227.7" y="352.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">A = [1, 2]</text>
+<line x1="24" y1="414" x2="50" y2="414" stroke="#0066cc" stroke-width="2.4"/>
+<text x="58.0" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">same direction</text>
+<line x1="186.8" y1="414" x2="212.8" y2="414" stroke="#40668d" stroke-width="2.4"/>
+<text x="220.8" y="418.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">only longer</text>
+</svg>

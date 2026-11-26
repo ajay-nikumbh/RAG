@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 470" width="620" height="470" role="img" aria-labelledby="emb-map-hr-title emb-map-hr-desc">
+<title id="emb-map-hr-title">Meaning map: HR, travel, database</title>
+<desc id="emb-map-hr-desc">2D PCA projection of real all-MiniLM-L6-v2 embeddings; related phrases land near each other.</desc>
+<rect width="620" height="470" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="469" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">HR, travel and database regions</text>
+<clipPath id="emb-map-hr-clip1"><rect x="24" y="56" width="572" height="350" rx="6"/></clipPath>
+<rect x="24" y="56" width="572" height="350" rx="6" fill="#f3f3f4"/>
+<circle cx="214.3" cy="135.1" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<circle cx="235.6" cy="202.9" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<circle cx="262.4" cy="161.6" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<circle cx="232.1" cy="153.4" r="5" fill="#7c8f6f" stroke="#7c8f6f" stroke-width="1.6"/>
+<line x1="214.3" y1="135.1" x2="189.0" y2="135.7" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="185.6" y="139.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">annual leave</text>
+<line x1="232.1" y1="153.4" x2="189.0" y2="151.8" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="185.6" y="155.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">annual holiday</text>
+<line x1="262.4" y1="161.6" x2="189.0" y2="168.0" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="185.6" y="171.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">paid time off</text>
+<line x1="235.6" y1="202.9" x2="189.0" y2="184.1" stroke="#7c8f6f" stroke-width="0.8"/>
+<text x="185.6" y="187.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#7c8f6f" text-anchor="end">vacation</text>
+<circle cx="230.8" cy="337.5" r="5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<circle cx="262.7" cy="343.2" r="5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<circle cx="307.6" cy="333.3" r="5" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<line x1="307.6" y1="333.3" x2="219.9" y2="318.5" stroke="#0066cc" stroke-width="0.8"/>
+<text x="216.5" y="321.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">flight booking</text>
+<line x1="230.8" y1="337.5" x2="219.9" y2="334.6" stroke="#0066cc" stroke-width="0.8"/>
+<text x="216.5" y="338.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">travel reimbursement</text>
+<line x1="262.7" y1="343.2" x2="219.9" y2="350.8" stroke="#0066cc" stroke-width="0.8"/>
+<text x="216.5" y="354.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">business travel</text>
+<circle cx="457.7" cy="227.6" r="5" fill="#b8915a" stroke="#b8915a" stroke-width="1.6"/>
+<circle cx="438.8" cy="190.5" r="5" fill="#b8915a" stroke="#b8915a" stroke-width="1.6"/>
+<circle cx="458.1" cy="224.9" r="5" fill="#b8915a" stroke="#b8915a" stroke-width="1.6"/>
+<line x1="438.8" y1="190.5" x2="498.6" y2="194.8" stroke="#b8915a" stroke-width="0.8"/>
+<text x="502.0" y="198.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">SQL query</text>
+<line x1="458.1" y1="224.9" x2="498.6" y2="211.0" stroke="#b8915a" stroke-width="0.8"/>
+<text x="502.0" y="214.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">PostgreSQL</text>
+<line x1="457.7" y1="227.6" x2="498.6" y2="227.1" stroke="#b8915a" stroke-width="0.8"/>
+<text x="502.0" y="230.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#b8915a" text-anchor="start">database</text>
+<line x1="24" y1="444" x2="50" y2="444" stroke="#7c8f6f" stroke-width="2.4"/>
+<text x="58.0" y="448.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">HR leave</text>
+<line x1="143.6" y1="444" x2="169.6" y2="444" stroke="#0066cc" stroke-width="2.4"/>
+<text x="177.6" y="448.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">travel</text>
+<line x1="248.8" y1="444" x2="274.8" y2="444" stroke="#b8915a" stroke-width="2.4"/>
+<text x="282.8" y="448.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">database</text>
+</svg>

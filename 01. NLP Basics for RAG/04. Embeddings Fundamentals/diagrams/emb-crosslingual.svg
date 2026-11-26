@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" width="620" height="420" role="img" aria-labelledby="emb-crosslingual-title emb-crosslingual-desc">
+<title id="emb-crosslingual-title">One meaning, three languages</title>
+<desc id="emb-crosslingual-desc">A multilingual model places annual leave in English, German and French close together (2D illustration).</desc>
+<rect width="620" height="420" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="419" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Multilingual model: same meaning, nearby points</text>
+<clipPath id="emb-crosslingual-clip1"><rect x="24" y="56" width="572" height="310" rx="6"/></clipPath>
+<rect x="24" y="56" width="572" height="310" rx="6" fill="#f3f3f4"/>
+<circle cx="206.7" cy="142.1" r="6" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="216.7" y="134.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">annual leave (EN)</text>
+<circle cx="232.5" cy="116.3" r="6" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="242.5" y="108.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">Jahresurlaub (DE)</text>
+<circle cx="180.8" cy="107.7" r="6" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="170.8" y="97.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">congé annuel (FR)</text>
+<circle cx="413.3" cy="288.5" r="6" fill="#735a6c" stroke="#735a6c" stroke-width="1.6"/>
+<text x="423.3" y="280.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="start">database (EN)</text>
+<circle cx="439.2" cy="262.7" r="6" fill="#735a6c" stroke="#735a6c" stroke-width="1.6"/>
+<text x="449.2" y="254.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="start">Datenbank (DE)</text>
+<circle cx="387.5" cy="314.3" r="6" fill="#735a6c" stroke="#735a6c" stroke-width="1.6"/>
+<text x="397.5" y="306.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="start">base de données (FR)</text>
+<line x1="24" y1="394" x2="50" y2="394" stroke="#0066cc" stroke-width="2.4"/>
+<text x="58.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">leave in three languages</text>
+<line x1="258.8" y1="394" x2="284.8" y2="394" stroke="#735a6c" stroke-width="2.4"/>
+<text x="292.8" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">database in three languages</text>
+</svg>

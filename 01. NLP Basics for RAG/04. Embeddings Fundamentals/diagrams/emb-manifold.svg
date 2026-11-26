@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" width="620" height="400" role="img" aria-labelledby="emb-manifold-title emb-manifold-desc">
+<title id="emb-manifold-title">Embeddings sit on a curved region</title>
+<desc id="emb-manifold-desc">Points fill a thin curved band inside the much larger space (2D illustration).</desc>
+<rect width="620" height="400" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="399" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Real sentences fill a thin curved band, not the whole space</text>
+<clipPath id="emb-manifold-clip1"><rect x="24" y="56" width="572" height="290" rx="6"/></clipPath>
+<rect x="24" y="56" width="572" height="290" rx="6" fill="#f3f3f4"/>
+<polyline points="101.6,171.2 108.6,152.7 115.7,136.1 122.8,122.2 129.8,111.5 136.9,104.5 144.0,101.4 151.0,102.5 158.1,107.5 165.2,116.4 172.2,128.7 179.3,144.0 186.4,161.6 193.4,180.9 200.5,201.0 207.5,221.0 214.6,240.3 221.7,257.9 228.7,273.2 235.8,285.6 242.9,294.5 249.9,299.5 257.0,300.6 264.1,297.5 271.1,290.5 278.2,279.8 285.3,265.9 292.3,249.4 299.4,230.8 306.5,211.1 313.5,190.9 320.6,171.2 327.7,152.6 334.7,136.1 341.8,122.2 348.9,111.5 355.9,104.5 363.0,101.4 370.1,102.5 377.1,107.5 384.2,116.4 391.3,128.8 398.3,144.1 405.4,161.7 412.5,181.0 419.5,201.0 426.6,221.1 433.6,240.4 440.7,258.0 447.8,273.3 454.8,285.6 461.9,294.5 469.0,299.5 476.0,300.6 483.1,297.5 490.2,290.5 497.2,279.8 504.3,265.9 511.4,249.3 518.4,230.8" fill="none" stroke="#b8915a" stroke-width="14"/>
+<circle cx="111.1" cy="137.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="116.4" cy="125.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="118.0" cy="137.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="128.7" cy="113.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="130.1" cy="96.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="132.1" cy="113.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="134.9" cy="104.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="136.2" cy="105.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="144.8" cy="94.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="170.1" cy="128.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="191.7" cy="177.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="201.3" cy="200.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="204.1" cy="210.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="204.5" cy="221.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="204.8" cy="203.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="206.4" cy="231.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="218.9" cy="264.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="224.6" cy="278.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="236.8" cy="276.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="238.1" cy="292.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="240.2" cy="302.1" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="257.3" cy="312.9" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="263.5" cy="293.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="267.1" cy="306.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="269.9" cy="305.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="273.5" cy="280.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="284.1" cy="281.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="284.7" cy="270.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="289.5" cy="256.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="307.2" cy="213.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="311.3" cy="197.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="312.5" cy="179.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="312.8" cy="198.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="316.1" cy="197.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="332.2" cy="161.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="332.4" cy="143.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="370.8" cy="106.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="379.5" cy="107.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="380.5" cy="116.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="381.4" cy="117.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="389.2" cy="132.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="392.7" cy="137.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="406.3" cy="162.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="429.2" cy="232.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="429.6" cy="228.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="431.6" cy="214.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="432.1" cy="231.0" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="432.8" cy="255.2" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="447.3" cy="253.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="447.5" cy="269.0" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="457.6" cy="299.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="458.4" cy="280.7" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="461.4" cy="293.8" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="467.7" cy="305.6" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="468.6" cy="306.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="482.7" cy="308.5" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="484.0" cy="296.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="489.8" cy="279.3" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="499.1" cy="280.0" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<circle cx="509.0" cy="250.4" r="3" fill="#40668d" stroke="#40668d" stroke-width="1.6"/>
+<text x="92.5" y="78.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#4f5d73" text-anchor="start">ambient space R^768: mostly empty</text>
+<line x1="24" y1="374" x2="50" y2="374" stroke="#b8915a" stroke-width="2.4"/>
+<text x="58.0" y="378.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">manifold: where sentences live</text>
+</svg>

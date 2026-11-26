@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" role="img" aria-labelledby="emb-mean-pool-title emb-mean-pool-desc">
+<title id="emb-mean-pool-title">Mean pooling averages token vectors</title>
+<desc id="emb-mean-pool-desc">Four token vectors h1 to h4 and their average, the sentence embedding (2D illustration).</desc>
+<rect width="560" height="420" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="559" height="419" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Sentence vector = average of token vectors</text>
+<clipPath id="emb-mean-pool-clip1"><rect x="24" y="56" width="512" height="310" rx="6"/></clipPath>
+<rect x="24" y="56" width="512" height="310" rx="6" fill="#f3f3f4"/>
+<line x1="119.5" y1="56" x2="119.5" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="230.2" y1="56" x2="230.2" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="340.9" y1="56" x2="340.9" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="451.6" y1="56" x2="451.6" y2="366" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="332.8" x2="536" y2="332.8" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="222.1" x2="536" y2="222.1" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="111.4" x2="536" y2="111.4" stroke="#cecfcf" stroke-width="0.6"/>
+<line x1="24" y1="332.8" x2="536" y2="332.8" stroke="#4f5d73" stroke-width="1"/>
+<line x1="119.5" y1="56" x2="119.5" y2="366" stroke="#4f5d73" stroke-width="1"/>
+<line x1="119.5" y1="332.8" x2="183.1" y2="141.8" stroke="#40668d" stroke-width="1.8"/>
+<polygon points="185.9,133.5 186.5,144.5 178.8,141.9" fill="#40668d"/>
+<text x="193.9" y="129.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">h1 Employees</text>
+<line x1="119.5" y1="332.8" x2="321.4" y2="269.0" stroke="#40668d" stroke-width="1.8"/>
+<polygon points="329.8,266.4 321.3,273.3 318.9,265.5" fill="#40668d"/>
+<text x="337.8" y="262.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">h2 receive</text>
+<line x1="119.5" y1="332.8" x2="258.8" y2="107.8" stroke="#40668d" stroke-width="1.8"/>
+<polygon points="263.4,100.3 261.5,111.1 254.5,106.8" fill="#40668d"/>
+<text x="271.4" y="96.3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">h3 annual</text>
+<line x1="119.5" y1="332.8" x2="377.7" y2="171.4" stroke="#40668d" stroke-width="1.8"/>
+<polygon points="385.2,166.7 378.7,175.6 374.4,168.7" fill="#40668d"/>
+<text x="393.2" y="162.7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#40668d" text-anchor="start">h4 leave</text>
+<line x1="119.5" y1="332.8" x2="284.7" y2="172.8" stroke="#0066cc" stroke-width="3.4"/>
+<polygon points="291.1,166.7 286.6,176.8 280.9,170.9" fill="#0066cc"/>
+<text x="302.1" y="191.1" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0066cc" text-anchor="start">mean = (1.55, 1.50)</text>
+<line x1="24" y1="394" x2="50" y2="394" stroke="#40668d" stroke-width="2.4"/>
+<text x="58.0" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">token vectors from the transformer</text>
+<line x1="330.8" y1="394" x2="356.8" y2="394" stroke="#0066cc" stroke-width="2.4"/>
+<text x="364.8" y="398.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">sentence embedding</text>
+</svg>

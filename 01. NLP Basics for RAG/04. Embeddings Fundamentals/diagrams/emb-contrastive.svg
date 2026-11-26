@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 380" width="780" height="380" role="img" aria-labelledby="emb-contrastive-title emb-contrastive-desc">
+<title id="emb-contrastive-title">Contrastive learning pulls and pushes</title>
+<desc id="emb-contrastive-desc">Before training the positive is far and the negative close; after training the positive is near the anchor and the negative far.</desc>
+<rect width="780" height="380" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="779" height="379" rx="8" fill="none" stroke="#cecfcf"/>
+<text x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Contrastive training: pull positives in, push negatives out</text>
+<clipPath id="emb-contrastive-clip1"><rect x="24" y="56" width="354" height="250" rx="6"/></clipPath>
+<rect x="24" y="56" width="354" height="250" rx="6" fill="#f3f3f4"/>
+<text x="201.0" y="328.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">Before training</text>
+<circle cx="201.0" cy="188.4" r="7" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<text x="211.0" y="208.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">anchor: annual leave</text>
+<circle cx="318.6" cy="85.4" r="6" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="310.6" y="73.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="end">positive: vacation days</text>
+<circle cx="134.8" cy="144.2" r="6" fill="#735a6c" stroke="#735a6c" stroke-width="1.6"/>
+<text x="144.8" y="134.2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="start">negative: database</text>
+<line x1="307.6" y1="95.0" x2="248.0" y2="147.9" stroke="#0066cc" stroke-width="1.6" stroke-dasharray="5,4"/>
+<polygon points="241.4,153.8 246.4,144.0 251.8,150.1" fill="#0066cc"/>
+<line x1="127.5" y1="151.6" x2="78.0" y2="211.0" stroke="#735a6c" stroke-width="1.6" stroke-dasharray="5,4"/>
+<polygon points="72.3,217.8 75.7,207.3 82.0,212.5" fill="#735a6c"/>
+<clipPath id="emb-contrastive-clip2"><rect x="402" y="56" width="354" height="250" rx="6"/></clipPath>
+<rect x="402" y="56" width="354" height="250" rx="6" fill="#f3f3f4"/>
+<text x="579.0" y="328.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">After training</text>
+<circle cx="579.0" cy="188.4" r="7" fill="#161f34" stroke="#161f34" stroke-width="1.6"/>
+<text x="589.0" y="208.4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">anchor: annual leave</text>
+<circle cx="612.1" cy="162.6" r="6" fill="#0066cc" stroke="#0066cc" stroke-width="1.6"/>
+<text x="604.1" y="150.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#0066cc" text-anchor="start">positive: vacation days</text>
+<circle cx="446.6" cy="276.6" r="6" fill="#735a6c" stroke="#735a6c" stroke-width="1.6"/>
+<text x="456.6" y="266.6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#735a6c" text-anchor="start">negative: database</text>
+<line x1="24" y1="354" x2="50" y2="354" stroke="#0066cc" stroke-width="2.4" stroke-dasharray="5,4"/>
+<text x="58.0" y="358.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">pull together</text>
+<line x1="179.60000000000002" y1="354" x2="205.60000000000002" y2="354" stroke="#735a6c" stroke-width="2.4" stroke-dasharray="5,4"/>
+<text x="213.6" y="358.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">push apart</text>
+</svg>
