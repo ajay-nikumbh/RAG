@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300" role="img" aria-labelledby="eval-ranked-list-title eval-ranked-list-desc">
+<title id="eval-ranked-list-title">Ranked list with the relevant chunk at rank 3</title>
+<desc id="eval-ranked-list-desc">Illustration: the retriever returns D19, D4, D7, D31, D2; only D7 is relevant.</desc>
+<rect width="620" height="300" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="619" height="299" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Retrieval evaluation looks at the ranked list</text>
+<text xml:space="preserve" x="40.0" y="86.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">rank 1</text>
+<rect x="110" y="64" width="200" height="32" rx="6" fill="#ffffff" stroke="#cecfcf" stroke-width="1.4"/>
+<text xml:space="preserve" x="210.0" y="85.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#4f5d73" text-anchor="middle">D19  not relevant</text>
+<text xml:space="preserve" x="40.0" y="128.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">rank 2</text>
+<rect x="110" y="106" width="200" height="32" rx="6" fill="#ffffff" stroke="#cecfcf" stroke-width="1.4"/>
+<text xml:space="preserve" x="210.0" y="127.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#4f5d73" text-anchor="middle">D4  not relevant</text>
+<text xml:space="preserve" x="40.0" y="170.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">rank 3</text>
+<rect x="110" y="148" width="200" height="32" rx="6" fill="#0066cc" stroke="#0066cc" stroke-width="1.4"/>
+<text xml:space="preserve" x="210.0" y="169.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">D7  relevant</text>
+<text xml:space="preserve" x="40.0" y="212.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">rank 4</text>
+<rect x="110" y="190" width="200" height="32" rx="6" fill="#ffffff" stroke="#cecfcf" stroke-width="1.4"/>
+<text xml:space="preserve" x="210.0" y="211.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#4f5d73" text-anchor="middle">D31  not relevant</text>
+<text xml:space="preserve" x="40.0" y="254.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">rank 5</text>
+<rect x="110" y="232" width="200" height="32" rx="6" fill="#ffffff" stroke="#cecfcf" stroke-width="1.4"/>
+<text xml:space="preserve" x="210.0" y="253.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#4f5d73" text-anchor="middle">D2  not relevant</text>
+<text xml:space="preserve" x="340.0" y="110.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">Was D7 retrieved?  yes</text>
+<text xml:space="preserve" x="340.0" y="136.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">At which rank?  3</text>
+<text xml:space="preserve" x="340.0" y="162.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">Irrelevant in Top 5?  4 of 5</text>
+<text xml:space="preserve" x="340.0" y="188.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#161f34" text-anchor="start">All relevant found?  yes (only D7)</text>
+<text xml:space="preserve" x="24.0" y="282.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Each question about the list becomes a metric: Hit Rate, MRR, Precision@K, Recall@K.</text>
+</svg>

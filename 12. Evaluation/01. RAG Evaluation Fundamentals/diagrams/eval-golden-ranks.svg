@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 452" width="820" height="452" role="img" aria-labelledby="eval-golden-ranks-title eval-golden-ranks-desc">
+<title id="eval-golden-ranks-title">Rank of the first relevant chunk, dense vs BM25</title>
+<desc id="eval-golden-ranks-desc">Real run on the 10-question golden set: dense all-MiniLM-L6-v2 ranks the relevant chunk first for every answerable question; BM25 misses several.</desc>
+<rect width="820" height="452" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="451" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Golden set: where did the relevant chunk land?</text>
+<text xml:space="preserve" x="300.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">rank 1</text>
+<line x1="300" y1="72" x2="300" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<line x1="338" y1="72" x2="338" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="338.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">2</text>
+<line x1="376" y1="72" x2="376" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="376.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">3</text>
+<line x1="414" y1="72" x2="414" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="414.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">4</text>
+<line x1="452" y1="72" x2="452" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="452.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">5</text>
+<line x1="490" y1="72" x2="490" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="490.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">6</text>
+<line x1="528" y1="72" x2="528" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="528.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">7</text>
+<line x1="566" y1="72" x2="566" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="566.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">8</text>
+<line x1="604" y1="72" x2="604" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="604.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">9</text>
+<line x1="642" y1="72" x2="642" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="642.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">10</text>
+<line x1="680" y1="72" x2="680" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="680.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">11</text>
+<line x1="718" y1="72" x2="718" y2="388" stroke="#cecfcf" stroke-width="1"/>
+<text xml:space="preserve" x="718.0" y="62.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#4f5d73" text-anchor="middle">12</text>
+<rect x="281.0" y="72" width="114" height="316" fill="#0066cc" opacity="0.08"/>
+<text xml:space="preserve" x="338.0" y="404.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#0066cc" text-anchor="middle">Top 3 sent to the LLM</text>
+<text xml:space="preserve" x="24.0" y="96.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q01  factual</text>
+<circle cx="300" cy="87" r="6" fill="#0066cc"/>
+<circle cx="338" cy="97" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="130.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q02  factual</text>
+<circle cx="300" cy="121" r="6" fill="#0066cc"/>
+<circle cx="414" cy="131" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="164.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q03  multi-hop</text>
+<circle cx="300" cy="155" r="6" fill="#0066cc"/>
+<circle cx="300" cy="165" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="198.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q04  numerical</text>
+<circle cx="300" cy="189" r="6" fill="#0066cc"/>
+<circle cx="642" cy="199" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="232.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q05  exact ID</text>
+<circle cx="300" cy="223" r="6" fill="#0066cc"/>
+<circle cx="300" cy="233" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="266.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q06  paraphrase</text>
+<circle cx="300" cy="257" r="6" fill="#0066cc"/>
+<circle cx="300" cy="267" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="300.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q07  numerical</text>
+<circle cx="300" cy="291" r="6" fill="#0066cc"/>
+<circle cx="376" cy="301" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="334.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q08  paraphrase</text>
+<circle cx="300" cy="325" r="6" fill="#0066cc"/>
+<circle cx="528" cy="335" r="6" fill="#b8915a"/>
+<text xml:space="preserve" x="24.0" y="368.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#161f34" text-anchor="start">Q10  factual</text>
+<circle cx="300" cy="359" r="6" fill="#0066cc"/>
+<circle cx="300" cy="369" r="6" fill="#b8915a"/>
+<line x1="24" y1="432" x2="50" y2="432" stroke="#0066cc" stroke-width="2.4"/>
+<text xml:space="preserve" x="58.0" y="436.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">dense (all-MiniLM-L6-v2)</text>
+<line x1="258.8" y1="432" x2="284.8" y2="432" stroke="#b8915a" stroke-width="2.4"/>
+<text xml:space="preserve" x="292.8" y="436.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">BM25</text>
+</svg>

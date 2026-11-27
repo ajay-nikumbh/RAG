@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" width="820" height="300" role="img" aria-labelledby="eval-system-ab-title eval-system-ab-desc">
+<title id="eval-system-ab-title">Same 80 percent, different bottleneck</title>
+<desc id="eval-system-ab-desc">Illustration: System A 95% recall times 84% generation, System B 82% recall times 98% generation; both about 80% end to end.</desc>
+<rect width="820" height="300" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="299" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">End-to-end ≈ retrieval recall × generation accuracy</text>
+<text xml:space="preserve" x="24.0" y="100.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0066cc" text-anchor="start">System A</text>
+<rect x="140" y="80" width="560" height="30" fill="#f3f3f4" stroke="#cecfcf"/>
+<rect x="140" y="80" width="532.0" height="30" fill="#0066cc" opacity="0.35"/>
+<rect x="140" y="80" width="446.9" height="30" fill="#0066cc"/>
+<text xml:space="preserve" x="580.9" y="100.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="end">end to end 79.8%</text>
+<text xml:space="preserve" x="678.0" y="100.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#0066cc" text-anchor="start">retrieved 95%</text>
+<text xml:space="preserve" x="140.0" y="130.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">retrieval 95% × generation 84%: fix generation first</text>
+<text xml:space="preserve" x="24.0" y="196.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#735a6c" text-anchor="start">System B</text>
+<rect x="140" y="176" width="560" height="30" fill="#f3f3f4" stroke="#cecfcf"/>
+<rect x="140" y="176" width="459.2" height="30" fill="#735a6c" opacity="0.35"/>
+<rect x="140" y="176" width="450.0" height="30" fill="#735a6c"/>
+<text xml:space="preserve" x="584.0" y="196.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="end">end to end 80.4%</text>
+<text xml:space="preserve" x="605.2" y="196.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#735a6c" text-anchor="start">retrieved 82%</text>
+<text xml:space="preserve" x="140.0" y="226.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">retrieval 82% × generation 98%: fix retrieval first</text>
+<text xml:space="preserve" x="24.0" y="282.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Light bar = questions with the evidence retrieved; dark bar = those also answered correctly.</text>
+</svg>

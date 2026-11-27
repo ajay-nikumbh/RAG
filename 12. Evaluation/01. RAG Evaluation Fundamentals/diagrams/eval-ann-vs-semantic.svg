@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330" role="img" aria-labelledby="eval-ann-vs-semantic-title eval-ann-vs-semantic-desc">
+<title id="eval-ann-vs-semantic-title">ANN recall and semantic recall measure different things</title>
+<desc id="eval-ann-vs-semantic-desc">Illustration: HNSW returns A B C D F against exact A B C D E (ANN recall 80%); the labelled relevant chunk D7 sits at rank 57, so semantic Recall@5 is 0.</desc>
+<rect width="820" height="330" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="329" rx="8" fill="none" stroke="#cecfcf"/>
+<text xml:space="preserve" x="24.0" y="32.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#161f34" text-anchor="start">Two different recalls</text>
+<text xml:space="preserve" x="24.0" y="93.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">exact top 5</text>
+<rect x="150" y="72" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="170.0" y="93.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">A</text>
+<rect x="198" y="72" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="218.0" y="93.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">B</text>
+<rect x="246" y="72" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="266.0" y="93.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">C</text>
+<rect x="294" y="72" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="314.0" y="93.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">D</text>
+<rect x="342" y="72" width="40" height="32" rx="5" fill="#b8915a" stroke="#40668d"/>
+<text xml:space="preserve" x="362.0" y="93.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">E</text>
+<text xml:space="preserve" x="24.0" y="143.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">HNSW top 5</text>
+<rect x="150" y="122" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="170.0" y="143.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">A</text>
+<rect x="198" y="122" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="218.0" y="143.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">B</text>
+<rect x="246" y="122" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="266.0" y="143.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">C</text>
+<rect x="294" y="122" width="40" height="32" rx="5" fill="#ffffff" stroke="#40668d"/>
+<text xml:space="preserve" x="314.0" y="143.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="middle">D</text>
+<rect x="342" y="122" width="40" height="32" rx="5" fill="#b8915a" stroke="#40668d"/>
+<text xml:space="preserve" x="362.0" y="143.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">F</text>
+<text xml:space="preserve" x="150.0" y="182.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#40668d" text-anchor="start">ANN recall = 4 / 5 = 80%</text>
+<text xml:space="preserve" x="150.0" y="202.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">How close is HNSW to exact search?</text>
+<line x1="430" y1="64" x2="430" y2="290" stroke="#cecfcf"/>
+<text xml:space="preserve" x="460.0" y="92.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161f34" text-anchor="start">Human label: relevant chunk is D7</text>
+<text xml:space="preserve" x="460.0" y="120.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">D7 is rank 57 in exact search too</text>
+<rect x="460" y="136" width="300" height="32" rx="5" fill="#f3f3f4" stroke="#cecfcf"/>
+<rect x="460" y="136" width="25.0" height="32" rx="5" fill="#0066cc" opacity="0.25"/>
+<circle cx="742.5" cy="152" r="7" fill="#b8915a"/>
+<text xml:space="preserve" x="460.0" y="186.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0066cc" text-anchor="start">semantic Recall@5 = 0 / 1 = 0%</text>
+<text xml:space="preserve" x="460.0" y="206.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">Did we get the evidence a human marked?</text>
+<text xml:space="preserve" x="24.0" y="306.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#4f5d73" text-anchor="start">A perfect ANN index (100% ANN recall) still returns nothing useful if the embedding model ranks D7 low.</text>
+</svg>

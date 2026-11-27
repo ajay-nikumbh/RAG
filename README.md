@@ -2,7 +2,7 @@
 
 # RAG · From NLP Basics to Production
 
-<img src="https://img.shields.io/badge/Groups-16-6366F1?style=for-the-badge" alt="groups"/> <img src="https://img.shields.io/badge/Chapters-108-0EA5E9?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-15-10B981?style=for-the-badge" alt="notes"/> <img src="https://img.shields.io/badge/Notebooks%20ready-11-F59E0B?style=for-the-badge" alt="notebooks"/>
+<img src="https://img.shields.io/badge/Groups-16-6366F1?style=for-the-badge" alt="groups"/> <img src="https://img.shields.io/badge/Chapters-108-0EA5E9?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-16-10B981?style=for-the-badge" alt="notes"/> <img src="https://img.shields.io/badge/Notebooks%20ready-11-F59E0B?style=for-the-badge" alt="notebooks"/>
 
 **A hands-on course on Retrieval-Augmented Generation: NLP basics, ingestion, sparse, dense and hybrid retrieval, reranking, generation, evaluation and production.**
 
@@ -225,7 +225,7 @@ Measuring retrieval and generation, and finding where a wrong answer came from.
 <table width="100%">
 <thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
-<tr><td align="center">12.01</td><td><b>RAG Evaluation Fundamentals</b></td><td>Why evaluating RAG is hard; offline vs online evaluation; retrieval evaluation basics; Relevance labels, offline evaluation, metric selection</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">12.01</td><td><a href="12.%20Evaluation/01.%20RAG%20Evaluation%20Fundamentals/notes/01.%20RAG%20Evaluation%20Fundamentals.md"><b>RAG Evaluation Fundamentals</b></a></td><td>Why evaluating RAG is hard; offline vs online evaluation; retrieval evaluation basics; Relevance labels, offline evaluation, metric selection</td><td align="center">Medium</td><td align="center"><a href="12.%20Evaluation/01.%20RAG%20Evaluation%20Fundamentals/notes/01.%20RAG%20Evaluation%20Fundamentals.md">Read</a></td><td align="center">-</td><td align="center">Done</td></tr>
 <tr><td align="center">12.02</td><td><b>Precision at K and Recall at K</b></td><td>Precision@K, Recall@K, worked examples; Precision@K, Recall@K, Hit rate, MRR, MAP, NDCG derived and computed by hand</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">12.03</td><td><b>Hit Rate Success at K</b></td><td>Hit rate, Success@K, when a single hit is enough</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">12.04</td><td><b>MRR Mean Reciprocal Rank</b></td><td>Reciprocal rank, MRR across queries</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>

@@ -2,20 +2,20 @@
 
 # 12.01 · RAG Evaluation Fundamentals
 
-<img src="https://img.shields.io/badge/12%20%C2%B7%20Evaluation-6366F1?style=for-the-badge" alt="group"/> <img src="https://img.shields.io/badge/Status-Planned-94A3B8?style=for-the-badge" alt="status"/>
+<img src="https://img.shields.io/badge/12%20%C2%B7%20Evaluation-6366F1?style=for-the-badge" alt="group"/> <img src="https://img.shields.io/badge/Status-Done-10B981?style=for-the-badge" alt="status"/>
 
 **Why evaluating RAG is hard; offline vs online evaluation; retrieval evaluation basics; Relevance labels, offline evaluation, metric selection.**
 
 </div>
 
-<p align="center"><a href="../../11.%20Context%20and%20Generation/05.%20Conversational%20RAG/README.md">Previous: 11.05 Conversational RAG</a> | <a href="../../README.md">Home</a> | <a href="../README.md">Group 12: Evaluation</a> | <a href="../02.%20Precision%20at%20K%20and%20Recall%20at%20K/README.md">Next: 12.02 Precision at K and Recall at K</a></p>
+<p align="center"><a href="../../11.%20Context%20and%20Generation/05.%20Conversational%20RAG/README.md">Previous: 11.05 Conversational RAG</a> | <a href="../../README.md">Home</a> | <a href="../README.md">Group 12: Evaluation</a> | <a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md">Notes</a> | <a href="../02.%20Precision%20at%20K%20and%20Recall%20at%20K/README.md">Next: 12.02 Precision at K and Recall at K</a></p>
 
 ## Chapter files
 
 <table width="100%">
 <thead><tr><th width="8%">Sr No</th><th width="20%">Resource</th><th width="54%">Description</th><th width="18%">Link</th></tr></thead>
 <tbody>
-<tr><td align="center">01</td><td><b>Notes</b></td><td>Markdown notes with diagrams and clean code</td><td align="center">Not yet</td></tr>
+<tr><td align="center">01</td><td><b>Notes</b></td><td>Markdown notes with diagrams and clean code</td><td align="center"><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md">Open</a></td></tr>
 <tr><td align="center">02</td><td><b>Notebook</b></td><td>Runnable notebook with code and outputs</td><td align="center">Not yet</td></tr>
 <tr><td align="center">03</td><td><b>Diagrams</b></td><td>Figures used by the notes and notebook</td><td align="center"><a href="diagrams">Open</a></td></tr>
 <tr><td align="center">04</td><td><b>Datasets</b></td><td>Data used by this chapter</td><td align="center"><a href="datasets">Open</a></td></tr>
@@ -23,6 +23,91 @@
 </tbody>
 </table>
 
-**Merged from:** RAG roadmap chapter 34, Hybrid-RAG chapter 30.
+## Subtopic index
 
-Notes for this chapter are planned.
+<table width="100%">
+<thead><tr><th width="8%">Sr No</th><th width="56%">Section</th><th width="12%">Subtopics</th><th width="12%">Code</th><th width="12%">Diagrams</th></tr></thead>
+<tbody>
+<tr><td align="center">01</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#basic-definitions-in-simple-words"><b>Basic Definitions in Simple Words</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">02</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#1-why-rag-evaluation-is-harder-than-normal-llm-evaluation"><b>1. Why RAG evaluation is harder than normal LLM evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">2</td></tr>
+<tr><td align="center">03</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#2-possible-causes-of-the-same-wrong-answer"><b>2. Possible causes of the same wrong answer</b></a></td><td align="center">6</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">04</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#3-three-levels-of-rag-evaluation"><b>3. Three levels of RAG evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">05</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#4-retrieval-evaluation"><b>4. Retrieval evaluation</b></a></td><td align="center">1</td><td align="center">2</td><td align="center">2</td></tr>
+<tr><td align="center">06</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#5-generation-evaluation"><b>5. Generation evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">07</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#6-end-to-end-evaluation"><b>6. End-to-end evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">08</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#7-why-all-three-levels-are-required"><b>7. Why all three levels are required</b></a></td><td align="center">3</td><td align="center">1</td><td align="center">1</td></tr>
+<tr><td align="center">09</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#8-the-most-important-evaluation-decomposition"><b>8. The most important evaluation decomposition</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr>
+<tr><td align="center">10</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#9-offline-evaluation"><b>9. Offline evaluation</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">1</td></tr>
+<tr><td align="center">11</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#10-offline-evaluation-architecture"><b>10. Offline evaluation architecture</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">12</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#11-why-offline-evaluation-is-useful"><b>11. Why offline evaluation is useful</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">2</td></tr>
+<tr><td align="center">13</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#12-offline-evaluation-example"><b>12. Offline evaluation example</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">14</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#13-online-evaluation"><b>13. Online evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">15</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#14-ab-testing"><b>14. A/B testing</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">16</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#15-offline-vs-online"><b>15. Offline vs online</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">17</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#16-why-offline-and-online-can-disagree"><b>16. Why offline and online can disagree</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">18</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#17-evaluation-is-not-one-metric"><b>17. Evaluation is not one metric</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">19</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#18-example"><b>18. Example</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">20</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#19-reference-based-evaluation"><b>19. Reference-based evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">21</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#20-reference-based-retrieval-evaluation"><b>20. Reference-based retrieval evaluation</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">22</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#21-reference-free-evaluation"><b>21. Reference-free evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">23</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#22-reference-based-vs-reference-free"><b>22. Reference-based vs reference-free</b></a></td><td align="center">2</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">24</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#23-human-evaluation"><b>23. Human evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">25</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#24-why-human-evaluation-is-valuable"><b>24. Why human evaluation is valuable</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">26</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#25-human-evaluation-problems"><b>25. Human evaluation problems</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr>
+<tr><td align="center">27</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#26-automated-evaluation"><b>26. Automated evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">28</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#27-golden-evaluation-dataset"><b>27. Golden evaluation dataset</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">29</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#28-why-do-we-need-relevant-chunk-ids"><b>28. Why do we need relevant chunk IDs?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">30</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#29-ideal-evaluation-record"><b>29. Ideal evaluation record</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">31</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#30-why-only-question-answer-pairs-are-not-enough"><b>30. Why only question-answer pairs are not enough</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">32</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#31-relevance-labels"><b>31. Relevance labels</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">33</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#32-graded-relevance"><b>32. Graded relevance</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">34</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#33-what-does-relevant-actually-mean"><b>33. What does relevant actually mean?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">35</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#34-topic-relevance-vs-answer-relevance"><b>34. Topic relevance vs answer relevance</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">36</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#35-evidence-sufficiency"><b>35. Evidence sufficiency</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">37</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#36-multi-hop-evaluation"><b>36. Multi-hop evaluation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">38</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#37-query-categories"><b>37. Query categories</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">39</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#38-slice-based-evaluation"><b>38. Slice-based evaluation</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">2</td></tr>
+<tr><td align="center">40</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#39-dataset-representativeness"><b>39. Dataset representativeness</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">41</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#40-difficulty-distribution"><b>40. Difficulty distribution</b></a></td><td align="center">3</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">42</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#41-evaluation-set-size"><b>41. Evaluation set size</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr>
+<tr><td align="center">43</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#42-evaluation-leakage"><b>42. Evaluation leakage</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">44</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#43-baseline"><b>43. Baseline</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">45</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#44-controlled-experiments"><b>44. Controlled experiments</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">46</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#45-evaluation-as-scientific-experimentation"><b>45. Evaluation as scientific experimentation</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">2</td></tr>
+<tr><td align="center">47</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#46-regression-testing"><b>46. Regression testing</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">48</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#47-example-evaluation-gates"><b>47. Example evaluation gates</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">49</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#48-rag-evaluation-pipeline"><b>48. RAG evaluation pipeline</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">50</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#49-diagnostic-logging"><b>49. Diagnostic logging</b></a></td><td align="center">-</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">51</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#50-why-final-answer-logs-alone-arent-enough"><b>50. Why final answer logs alone aren't enough</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">52</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#51-metric-selection-depends-on-use-case"><b>51. Metric selection depends on use case</b></a></td><td align="center">4</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">53</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#52-precision-vs-recall-intuition"><b>52. Precision vs recall intuition</b></a></td><td align="center">2</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">54</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#53-two-stage-evaluation-intuition"><b>53. Two-stage evaluation intuition</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">55</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#54-ann-recall-is-not-the-same-as-semantic-recallk"><b>54. ANN recall is not the same as semantic Recall@K</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">56</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#55-example"><b>55. Example</b></a></td><td align="center">1</td><td align="center">1</td><td align="center">-</td></tr>
+<tr><td align="center">57</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#56-generation-correctness-vs-faithfulness"><b>56. Generation correctness vs faithfulness</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">58</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#57-opposite-case"><b>57. Opposite case</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">59</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#58-context-quality-vs-answer-quality"><b>58. Context quality vs answer quality</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">60</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#59-unanswerable-questions"><b>59. Unanswerable questions</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">61</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#60-why-unanswerable-evaluation-matters"><b>60. Why unanswerable evaluation matters</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">62</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#61-adversarial-evaluation"><b>61. Adversarial evaluation</b></a></td><td align="center">5</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">63</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#62-end-to-end-success-criteria"><b>62. End-to-end success criteria</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">64</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#63-evaluation-dashboard"><b>63. Evaluation dashboard</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">65</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#64-core-production-principle"><b>64. Core production principle</b></a></td><td align="center">3</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">66</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#65-interview-question--why-is-rag-evaluation-difficult"><b>65. Interview question — Why is RAG evaluation difficult?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">67</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#66-interview-question--offline-vs-online-evaluation"><b>66. Interview question — Offline vs online evaluation?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">68</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#67-interview-question--what-should-a-rag-golden-dataset-contain"><b>67. Interview question — What should a RAG golden dataset contain?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">69</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#68-interview-question--why-isnt-final-answer-accuracy-sufficient"><b>68. Interview question — Why isn't final-answer accuracy sufficient?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">70</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#69-interview-question--reference-based-vs-reference-free"><b>69. Interview question — Reference-based vs reference-free?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">71</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#70-interview-question--human-vs-automated-evaluation"><b>70. Interview question — Human vs automated evaluation?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">72</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#71-interview-question--what-does-relevance-mean-in-retrieval-evaluation"><b>71. Interview question — What does relevance mean in retrieval evaluation?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">73</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#72-interview-question--how-would-you-evaluate-a-new-embedding-model"><b>72. Interview question — How would you evaluate a new embedding model?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">74</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#73-interview-question--how-do-you-know-whether-a-wrong-answer-was-retrieval-or-generation-failure"><b>73. Interview question — How do you know whether a wrong answer was retrieval or generation failure?</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">75</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#74-common-evaluation-mistakes"><b>74. Common evaluation mistakes</b></a></td><td align="center">10</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">76</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#75-evaluation-maturity-levels"><b>75. Evaluation maturity levels</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">77</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#76-chapter-1201-core-architecture"><b>76. Chapter 12.01 core architecture</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">78</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#77-the-three-evaluation-layers-to-memorize"><b>77. The three evaluation layers to memorize</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">79</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#78-final-revision-sheet"><b>78. Final revision sheet</b></a></td><td align="center">11</td><td align="center">-</td><td align="center">1</td></tr>
+<tr><td align="center">80</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#79-practice-tasks"><b>79. Practice Tasks</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><td align="center">81</td><td><a href="notes/01.%20RAG%20Evaluation%20Fundamentals.md#80-final-takeaways"><b>80. Final Takeaways</b></a></td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
+</tbody>
+</table>

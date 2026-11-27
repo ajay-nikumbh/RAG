@@ -2,7 +2,7 @@
 
 # 12 · Evaluation
 
-<img src="https://img.shields.io/badge/Chapters-11-6366F1?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-0-10B981?style=for-the-badge" alt="done"/>
+<img src="https://img.shields.io/badge/Chapters-11-6366F1?style=for-the-badge" alt="chapters"/> <img src="https://img.shields.io/badge/Notes%20done-1-10B981?style=for-the-badge" alt="done"/>
 
 **Measuring retrieval and generation, and finding where a wrong answer came from.**
 
@@ -41,7 +41,7 @@ flowchart TB
 <table width="100%">
 <thead><tr><th width="6%">Sr&nbsp;No</th><th width="22%">Chapter</th><th width="46%">Key Concepts</th><th width="8%">Interview Priority</th><th width="6%">Notes</th><th width="6%">Notebook</th><th width="6%">Status</th></tr></thead>
 <tbody>
-<tr><td align="center">01</td><td><b>RAG Evaluation Fundamentals</b></td><td>Why evaluating RAG is hard; offline vs online evaluation; retrieval evaluation basics; Relevance labels, offline evaluation, metric selection</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
+<tr><td align="center">01</td><td><a href="01.%20RAG%20Evaluation%20Fundamentals/notes/01.%20RAG%20Evaluation%20Fundamentals.md"><b>RAG Evaluation Fundamentals</b></a></td><td>Why evaluating RAG is hard; offline vs online evaluation; retrieval evaluation basics; Relevance labels, offline evaluation, metric selection</td><td align="center">Medium</td><td align="center"><a href="01.%20RAG%20Evaluation%20Fundamentals/notes/01.%20RAG%20Evaluation%20Fundamentals.md">Read</a></td><td align="center">-</td><td align="center">Done</td></tr>
 <tr><td align="center">02</td><td><b>Precision at K and Recall at K</b></td><td>Precision@K, Recall@K, worked examples; Precision@K, Recall@K, Hit rate, MRR, MAP, NDCG derived and computed by hand</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">03</td><td><b>Hit Rate Success at K</b></td><td>Hit rate, Success@K, when a single hit is enough</td><td align="center">Medium</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
 <tr><td align="center">04</td><td><b>MRR Mean Reciprocal Rank</b></td><td>Reciprocal rank, MRR across queries</td><td align="center">High</td><td align="center">-</td><td align="center">-</td><td align="center">Planned</td></tr>
